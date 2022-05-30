@@ -1,0 +1,5462 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "LmsBackEnd",
+    "version": "v1"
+  },
+  "paths": {
+    "/api/ClassMember/ListInstructor": {
+      "get": {
+        "tags": [
+          "ClassMember"
+        ],
+        "summary": "danh sách instructor",
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/ACCOUNT"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/ACCOUNT"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/ACCOUNT"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/ClassMember/ListMentor": {
+      "get": {
+        "tags": [
+          "ClassMember"
+        ],
+        "summary": "danh sách mentor",
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/ACCOUNT"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/ACCOUNT"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/ACCOUNT"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/ClassMember/ListClassAdmin": {
+      "get": {
+        "tags": [
+          "ClassMember"
+        ],
+        "summary": "danh sách class admin",
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/ACCOUNT"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/ACCOUNT"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/ACCOUNT"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/ClassMember/CourseList": {
+      "get": {
+        "tags": [
+          "ClassMember"
+        ],
+        "summary": "danh sách khóa học",
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/COURSE"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/COURSE"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/COURSE"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/ClassMember/ListClassMember": {
+      "get": {
+        "tags": [
+          "ClassMember"
+        ],
+        "summary": "danh sách instructor, mentor, class admin của khóa học",
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CLASSMEMBER"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CLASSMEMBER"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CLASSMEMBER"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/ClassMember/ListClassMemberByCourse": {
+      "get": {
+        "tags": [
+          "ClassMember"
+        ],
+        "summary": "danh sách instructor, mentor, class admin của khóa học theo CourseID",
+        "parameters": [
+          {
+            "name": "CourseID",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "nullable": true
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CLASSMEMBER"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CLASSMEMBER"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CLASSMEMBER"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/ClassMember/AssignClassMember": {
+      "post": {
+        "tags": [
+          "ClassMember"
+        ],
+        "summary": "Assing instructor, mentor và class admin vào khóa học",
+        "parameters": [
+          {
+            "name": "CourseID",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "nullable": true
+            }
+          },
+          {
+            "name": "InstructorID",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "nullable": true
+            }
+          },
+          {
+            "name": "MentorID",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "nullable": true
+            }
+          },
+          {
+            "name": "ClassAdminID",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "nullable": true
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Comment/List/{topicID}": {
+      "get": {
+        "tags": [
+          "Comment"
+        ],
+        "summary": "Xuất ra list comment của topic",
+        "parameters": [
+          {
+            "name": "topicID",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "nullable": true
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Response"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Response"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Response"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Comment/CreateComment": {
+      "post": {
+        "tags": [
+          "Comment"
+        ],
+        "summary": "Viết comment",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CommentInput"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CommentInput"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/CommentInput"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Course/AddFullCourse": {
+      "post": {
+        "tags": [
+          "Course"
+        ],
+        "summary": "Thêm khóa học va hình ảnh",
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "CourseID": {
+                    "type": "string",
+                    "nullable": true
+                  },
+                  "CourseName": {
+                    "maxLength": 50,
+                    "type": "string",
+                    "nullable": true
+                  },
+                  "CourseDetail": {
+                    "maxLength": 255,
+                    "type": "string",
+                    "nullable": true
+                  },
+                  "CourseDuration": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "UrlLink": {
+                    "type": "string",
+                    "nullable": true
+                  },
+                  "ImageCouse": {
+                    "type": "string",
+                    "format": "byte",
+                    "nullable": true
+                  },
+                  "files": {
+                    "type": "string",
+                    "format": "binary",
+                    "nullable": true
+                  }
+                }
+              },
+              "encoding": {
+                "CourseID": {
+                  "style": "form"
+                },
+                "CourseName": {
+                  "style": "form"
+                },
+                "CourseDetail": {
+                  "style": "form"
+                },
+                "CourseDuration": {
+                  "style": "form"
+                },
+                "UrlLink": {
+                  "style": "form"
+                },
+                "ImageCouse": {
+                  "style": "form"
+                },
+                "files": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Response"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Response"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Response"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Course/UploadFile/{id}": {
+      "post": {
+        "tags": [
+          "Course"
+        ],
+        "summary": "Upload anh cho KH",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "nullable": true
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "files": {
+                    "type": "string",
+                    "format": "binary",
+                    "nullable": true
+                  }
+                }
+              },
+              "encoding": {
+                "files": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/COURSE"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/COURSE"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/COURSE"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Course/GetUrlFile/{id}": {
+      "get": {
+        "tags": [
+          "Course"
+        ],
+        "summary": "Get anh cho KH",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "nullable": true
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/COURSE"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/COURSE"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/COURSE"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Course/DowLoadUrlFile/{id}": {
+      "post": {
+        "tags": [
+          "Course"
+        ],
+        "summary": "Tải ảnh xuống cho KH",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "nullable": true
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/COURSE"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/COURSE"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/COURSE"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Course/{id}": {
+      "get": {
+        "tags": [
+          "Course"
+        ],
+        "summary": "Tìm bài học theo khóa học",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "nullable": true
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/LESSON"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/LESSON"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/LESSON"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Course/AllCourse": {
+      "get": {
+        "tags": [
+          "Course"
+        ],
+        "summary": "Tìm tất cả Khóa học thêm vào slide",
+        "parameters": [
+          {
+            "name": "searchcourseInfo",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "nullable": true
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Response"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Response"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Response"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Course/CourseListPagination": {
+      "get": {
+        "tags": [
+          "Course"
+        ],
+        "summary": "Lấy danh sách khóa học theo phân trang - ID - Name",
+        "parameters": [
+          {
+            "name": "PageNumber",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "PageSize",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "courseInfo",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "nullable": true
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Response"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Response"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Response"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Course/AddCourse": {
+      "post": {
+        "tags": [
+          "Course"
+        ],
+        "summary": "Thêm khóa học",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CourseCreate"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CourseCreate"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/CourseCreate"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Response"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Response"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Response"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Course/Delete/{courseid}": {
+      "delete": {
+        "tags": [
+          "Course"
+        ],
+        "summary": "Xóa khóa học",
+        "parameters": [
+          {
+            "name": "courseid",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "nullable": true
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Response"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Response"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Response"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Course/Update/{courseid}": {
+      "put": {
+        "tags": [
+          "Course"
+        ],
+        "summary": "Cập nhật khóa học",
+        "parameters": [
+          {
+            "name": "courseid",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "nullable": true
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/LessonCourse"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/LessonCourse"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/LessonCourse"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Response"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Response"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Response"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Course/SearchCoursByID/{courseID}": {
+      "get": {
+        "tags": [
+          "Course"
+        ],
+        "summary": "Tìm khóa học theo id",
+        "parameters": [
+          {
+            "name": "courseID",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "nullable": true
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Response"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Response"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Response"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Course/SearchCoursByName/{courseName}": {
+      "get": {
+        "tags": [
+          "Course"
+        ],
+        "summary": "Tìm khóa học theo name",
+        "parameters": [
+          {
+            "name": "courseName",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "nullable": true
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Response"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Response"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Response"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Course/GetAllEnrolledCourse": {
+      "get": {
+        "tags": [
+          "Course"
+        ],
+        "summary": "Lấy tất cả đăng kí Khóa học",
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Response"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Response"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Response"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Course/GetEnrolledCourse/{accountID}": {
+      "get": {
+        "tags": [
+          "Course"
+        ],
+        "summary": "Lấy tất cả các khóa học đã đăng ký của user",
+        "parameters": [
+          {
+            "name": "accountID",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "nullable": true
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/ENROLL"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/ENROLL"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/ENROLL"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Course/UserEnrollCourse": {
+      "post": {
+        "tags": [
+          "Course"
+        ],
+        "summary": "User đăng kí khóa học",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/EnrollCourse"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/EnrollCourse"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/EnrollCourse"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Response"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Response"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Response"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Course/DeleteUserFromCouse/{userId}": {
+      "delete": {
+        "tags": [
+          "Course"
+        ],
+        "summary": "Xóa User khỏi khóa học",
+        "parameters": [
+          {
+            "name": "userId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "nullable": true
+            }
+          },
+          {
+            "name": "courseID",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "nullable": true
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Response"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Response"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Response"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Course/UpdateEnroll/{userid}": {
+      "put": {
+        "tags": [
+          "Course"
+        ],
+        "summary": "Cập nhật khóa học đã đăng kí của User",
+        "parameters": [
+          {
+            "name": "userid",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "nullable": true
+            }
+          },
+          {
+            "name": "couseID",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "nullable": true
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/EditCourseUser"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/EditCourseUser"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/EditCourseUser"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Response"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Response"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Response"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/controller/ALLQuestionList": {
+      "get": {
+        "tags": [
+          "Feedback"
+        ],
+        "summary": "Danh sách các feedback câu hỏi khảo sát",
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/FeedbackQuestion"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/FeedbackQuestion"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/FeedbackQuestion"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/controller/QuestionListByID/{id}": {
+      "get": {
+        "tags": [
+          "Feedback"
+        ],
+        "summary": "Danh sách câu hỏi theo Id",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "nullable": true
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/FEEDBACK"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/FEEDBACK"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/FEEDBACK"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/controller/QuestionList": {
+      "get": {
+        "tags": [
+          "Feedback"
+        ],
+        "summary": "Danh sách các khảo sát",
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/FeedbackQuestion"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/FeedbackQuestion"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/FeedbackQuestion"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/controller/FeedbackQuestionList": {
+      "get": {
+        "tags": [
+          "Feedback"
+        ],
+        "summary": "Danh sách các Feedback cho thầy cô với từng đánh giá",
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/FEEDBACK"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/FEEDBACK"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/FEEDBACK"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/controller/ByIdFeed/{id}": {
+      "get": {
+        "tags": [
+          "Feedback"
+        ],
+        "summary": "Lấy Feedback theo ID cho thầy cô với từng đánh giá",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "nullable": true
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/FEEDBACK"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/FEEDBACK"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/FEEDBACK"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/controller/FeedbackAnswerList": {
+      "get": {
+        "tags": [
+          "Feedback"
+        ],
+        "summary": "Danh sách các feedback từ sv",
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/FEEDBACKATTEMP"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/FEEDBACKATTEMP"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/FEEDBACKATTEMP"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/controller/CreateFeedback": {
+      "post": {
+        "tags": [
+          "Feedback"
+        ],
+        "summary": "Tao Feedback",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateFeedback"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateFeedback"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateFeedback"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Response"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Response"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Response"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/controller/Feedback": {
+      "post": {
+        "tags": [
+          "Feedback"
+        ],
+        "summary": "Tra loi Feedback",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateFeedbackattemp"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateFeedbackattemp"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateFeedbackattemp"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Response"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Response"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Response"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/controller/FeedbackCheck": {
+      "head": {
+        "tags": [
+          "Feedback"
+        ],
+        "summary": "Check da khao sat",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "nullable": true
+            }
+          },
+          {
+            "name": "feedId",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "nullable": true
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/FEEDBACKATTEMP"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/FEEDBACKATTEMP"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/FEEDBACKATTEMP"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Home": {
+      "get": {
+        "tags": [
+          "Home"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/COURSE"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/COURSE"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/COURSE"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Home/{id}": {
+      "get": {
+        "tags": [
+          "Home"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "nullable": true
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/COURSE"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/COURSE"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/COURSE"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Home/Search": {
+      "get": {
+        "tags": [
+          "Home"
+        ],
+        "parameters": [
+          {
+            "name": "searchString",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "nullable": true
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/COURSE"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/COURSE"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/COURSE"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Lesson/List": {
+      "get": {
+        "tags": [
+          "Lesson"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/LESSON"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/LESSON"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/LESSON"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Lesson/CreateLesson": {
+      "post": {
+        "tags": [
+          "Lesson"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/LessonInput"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/LessonInput"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/LessonInput"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/LessonForAdmin/AllLesson": {
+      "get": {
+        "tags": [
+          "LessonForAdmin"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Response"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Response"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Response"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/LessonForAdmin/LessonList": {
+      "get": {
+        "tags": [
+          "LessonForAdmin"
+        ],
+        "summary": "Xem danh sách các bài học",
+        "parameters": [
+          {
+            "name": "PageNumber",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "PageSize",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "lessInfo",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "nullable": true
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Response"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Response"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Response"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/LessonForAdmin/CreateLessonForAdmin": {
+      "post": {
+        "tags": [
+          "LessonForAdmin"
+        ],
+        "summary": "Admin thêm bài học vào khóa học",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/LessonCreate"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/LessonCreate"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/LessonCreate"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Response"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Response"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Response"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/LessonForAdmin/Update": {
+      "put": {
+        "tags": [
+          "LessonForAdmin"
+        ],
+        "summary": "Sủa bài học",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/LessonCreate"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/LessonCreate"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/LessonCreate"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Response"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Response"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Response"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/LessonForAdmin/DeleteLesson/{lessonID}": {
+      "delete": {
+        "tags": [
+          "LessonForAdmin"
+        ],
+        "parameters": [
+          {
+            "name": "lessonID",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "nullable": true
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Response"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Response"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Response"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/LessonForAdmin/UploadFiles/{lessonID}": {
+      "post": {
+        "tags": [
+          "LessonForAdmin"
+        ],
+        "parameters": [
+          {
+            "name": "lessonID",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "nullable": true
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "file": {
+                    "type": "string",
+                    "format": "binary",
+                    "nullable": true
+                  }
+                }
+              },
+              "encoding": {
+                "file": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Response"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Response"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Response"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Login": {
+      "post": {
+        "tags": [
+          "Login"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoginRequest"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoginRequest"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoginRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Notification/AllNotifyAdmin": {
+      "get": {
+        "tags": [
+          "Notification"
+        ],
+        "summary": "Tìm tất cả Thông báo thêm hiển thị cho admin phê duyệt",
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Response"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Response"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Response"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Notification/AllNotify": {
+      "get": {
+        "tags": [
+          "Notification"
+        ],
+        "summary": "Tìm tất cả Thông báo thêm hiển thị lên trang chủ",
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Response"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Response"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Response"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Notification/ListNotifyPagination": {
+      "get": {
+        "tags": [
+          "Notification"
+        ],
+        "summary": "Xem danh sách Thông báo đã phân trang",
+        "parameters": [
+          {
+            "name": "PageNumber",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "PageSize",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "NotifyInfo",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "nullable": true
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Response"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Response"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Response"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Notification/CreateNotification": {
+      "post": {
+        "tags": [
+          "Notification"
+        ],
+        "summary": "Tạo thông báo",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/NOTIFY"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/NOTIFY"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/NOTIFY"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Notification/AllNotifyAdmin/{id}": {
+      "put": {
+        "tags": [
+          "Notification"
+        ],
+        "summary": "Duyệt thông báo",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "nullable": true
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Quiz/List": {
+      "get": {
+        "tags": [
+          "Quiz"
+        ],
+        "summary": "Xuất toàn bộ quiz",
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/QUIZ"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/QUIZ"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/QUIZ"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Quiz/{quizID}": {
+      "get": {
+        "tags": [
+          "Quiz"
+        ],
+        "summary": "Xuất thông tin của một quiz",
+        "parameters": [
+          {
+            "name": "quizID",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "nullable": true
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/QUIZ"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/QUIZ"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/QUIZ"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Quiz/ListQuestion": {
+      "get": {
+        "tags": [
+          "Quiz"
+        ],
+        "summary": "Xuất toàn bộ question của quiz",
+        "parameters": [
+          {
+            "name": "QuizID",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "nullable": true
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/QUIZBODY"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/QUIZBODY"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/QUIZBODY"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Quiz/CreateQuiz": {
+      "post": {
+        "tags": [
+          "Quiz"
+        ],
+        "summary": "Tạo quiz",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/QuizInput"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/QuizInput"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/QuizInput"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Quiz/CreateQuestion": {
+      "post": {
+        "tags": [
+          "Quiz"
+        ],
+        "summary": "Tạo question cho quiz",
+        "parameters": [
+          {
+            "name": "QuizID",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "nullable": true
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/QuestionInput"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/QuestionInput"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/QuestionInput"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Quiz/GetQuestion": {
+      "get": {
+        "tags": [
+          "Quiz"
+        ],
+        "summary": "Lấy question và trộn đáp án",
+        "parameters": [
+          {
+            "name": "QuizID",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "nullable": true
+            }
+          },
+          {
+            "name": "QuestionNo",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Quiz/GetQuestion/{QuizID}/{QuestionNo}": {
+      "post": {
+        "tags": [
+          "Quiz"
+        ],
+        "summary": "kiểm tra đáp án",
+        "parameters": [
+          {
+            "name": "QuizID",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "nullable": true
+            }
+          },
+          {
+            "name": "QuestionNo",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "Answer",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "nullable": true
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Response"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Response"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Response"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Quiz/SubmitQuiz/{QuizID}": {
+      "post": {
+        "tags": [
+          "Quiz"
+        ],
+        "summary": "nộp bài",
+        "parameters": [
+          {
+            "name": "QuizID",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "nullable": true
+            }
+          },
+          {
+            "name": "AccountID",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "nullable": true
+            }
+          },
+          {
+            "name": "Score",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Response"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Response"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Response"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Quiz/ListAttemp": {
+      "get": {
+        "tags": [
+          "Quiz"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/QUIZATTEMP"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/QUIZATTEMP"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/QUIZATTEMP"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Register": {
+      "post": {
+        "tags": [
+          "Register"
+        ],
+        "summary": "Đăng ký",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AccountCreate"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AccountCreate"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/AccountCreate"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          },
+          "201": {
+            "description": "Tạo tài khoản thành công !"
+          },
+          "400": {
+            "description": "Các trường không được bỏ trống !"
+          }
+        }
+      }
+    },
+    "/api/Confirmmail": {
+      "post": {
+        "tags": [
+          "Register"
+        ],
+        "summary": "Nhập tài khoản để xác nhận email",
+        "parameters": [
+          {
+            "name": "username",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "nullable": true
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/ListRegister": {
+      "get": {
+        "tags": [
+          "Register"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/ACCOUNT"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/ACCOUNT"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/ACCOUNT"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/ChangePassword": {
+      "put": {
+        "tags": [
+          "Register"
+        ],
+        "summary": "Đổi mật khẩu",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ChangePassword"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ChangePassword"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/ChangePassword"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Response"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Response"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Response"
+                }
+              }
+            }
+          },
+          "202": {
+            "description": "Đổi mật khẩu thành công thành công !"
+          },
+          "400": {
+            "description": "Đổi mật khẩu không thành công !"
+          }
+        }
+      }
+    },
+    "/api/Responsibility/TeacherList": {
+      "get": {
+        "tags": [
+          "Responsibility"
+        ],
+        "summary": "danh sách giáo viên",
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/ACCOUNT"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/ACCOUNT"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/ACCOUNT"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Responsibility/CourseList": {
+      "get": {
+        "tags": [
+          "Responsibility"
+        ],
+        "summary": "danh sách khóa học",
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/COURSE"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/COURSE"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/COURSE"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Responsibility/AssignTeacher": {
+      "post": {
+        "tags": [
+          "Responsibility"
+        ],
+        "summary": "Assing giáo viên vào khóa học",
+        "parameters": [
+          {
+            "name": "AccountID",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "nullable": true
+            }
+          },
+          {
+            "name": "CourseID",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "nullable": true
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Responsibility/ListResponsibility": {
+      "get": {
+        "tags": [
+          "Responsibility"
+        ],
+        "summary": "danh sách phân công giáo viên",
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/RESPONSIBILITY"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/RESPONSIBILITY"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/RESPONSIBILITY"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Student/List": {
+      "get": {
+        "tags": [
+          "Student"
+        ],
+        "summary": "xuất toàn bộ danh sách học viên(viết phòng hờ có thể ko cần dùng)",
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/ACCOUNT"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/ACCOUNT"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/ACCOUNT"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Student/ListByCourse/{courseID}": {
+      "get": {
+        "tags": [
+          "Student"
+        ],
+        "summary": "xuất toàn bộ học viên của 1 khóa học",
+        "parameters": [
+          {
+            "name": "courseID",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "nullable": true
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Response"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Response"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Response"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Student/ListByCourse/{courseID}/{id}": {
+      "get": {
+        "tags": [
+          "Student"
+        ],
+        "summary": "Lấy thông tin học viên thuộc khóa học",
+        "parameters": [
+          {
+            "name": "courseID",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "nullable": true
+            }
+          },
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "nullable": true
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/StudentInfo"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/StudentInfo"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/StudentInfo"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Student/SearchStudent": {
+      "get": {
+        "tags": [
+          "Student"
+        ],
+        "summary": "Tìm học viên",
+        "parameters": [
+          {
+            "name": "name",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "nullable": true
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/ACCOUNT"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/ACCOUNT"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/ACCOUNT"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Student/ListByCourse/{courseID}/AddStudent": {
+      "post": {
+        "tags": [
+          "Student"
+        ],
+        "summary": "Thêm học viên vào khóa học",
+        "parameters": [
+          {
+            "name": "accountID",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "nullable": true
+            }
+          },
+          {
+            "name": "courseID",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "nullable": true
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Student/DeleteStudent": {
+      "delete": {
+        "tags": [
+          "Student"
+        ],
+        "summary": "Xóa học viên khỏi khóa học",
+        "parameters": [
+          {
+            "name": "accountID",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "nullable": true
+            }
+          },
+          {
+            "name": "courseID",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "nullable": true
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Student/WriteScore": {
+      "put": {
+        "tags": [
+          "Student"
+        ],
+        "summary": "Sửa điểm cho học viên",
+        "parameters": [
+          {
+            "name": "accountID",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "nullable": true
+            }
+          },
+          {
+            "name": "courseID",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "nullable": true
+            }
+          },
+          {
+            "name": "score1",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "score2",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/SubmitFile/List": {
+      "get": {
+        "tags": [
+          "SubmitFile"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Response"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Response"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Response"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/SubmitFile/UploadFile/{accountID}": {
+      "post": {
+        "tags": [
+          "SubmitFile"
+        ],
+        "parameters": [
+          {
+            "name": "accountID",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "nullable": true
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "file": {
+                    "type": "string",
+                    "format": "binary",
+                    "nullable": true
+                  }
+                }
+              },
+              "encoding": {
+                "file": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Response"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Response"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Response"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/SubmitPoint/ListSubmit": {
+      "get": {
+        "tags": [
+          "SubmitPoint"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/POINT"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/POINT"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/POINT"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/SubmitPoint/ListSubmitByFolder/{folderName}": {
+      "get": {
+        "tags": [
+          "SubmitPoint"
+        ],
+        "parameters": [
+          {
+            "name": "folderName",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "nullable": true
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/POINT"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/POINT"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/POINT"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/SubmitPoint/ListSubmit/{id}": {
+      "put": {
+        "tags": [
+          "SubmitPoint"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "point",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Topic/List": {
+      "get": {
+        "tags": [
+          "Topic"
+        ],
+        "summary": "Xuất danh sách topic",
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/TOPIC"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/TOPIC"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/TOPIC"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Topic/CreateTopic": {
+      "post": {
+        "tags": [
+          "Topic"
+        ],
+        "summary": "Tạo topic",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/TopicInput"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/TopicInput"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/TopicInput"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Topic/List/{id}": {
+      "put": {
+        "tags": [
+          "Topic"
+        ],
+        "summary": "Đổi topic IsOutdated = true",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "nullable": true
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/User/AllUser": {
+      "get": {
+        "tags": [
+          "User"
+        ],
+        "summary": "Tìm tất cả User thêm vào slide",
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Response"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Response"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Response"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/User/ListUserPagination": {
+      "get": {
+        "tags": [
+          "User"
+        ],
+        "summary": "Xem danh sách User Theo phân trang",
+        "parameters": [
+          {
+            "name": "PageNumber",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "PageSize",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "userInfo",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "nullable": true
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Response"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Response"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Response"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/User/AddUser": {
+      "post": {
+        "tags": [
+          "User"
+        ],
+        "summary": "Thêm User",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateUser"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateUser"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateUser"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/User/DeleteUser/{id}": {
+      "delete": {
+        "tags": [
+          "User"
+        ],
+        "summary": "Xóa User",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "nullable": true
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/User/UpdateUser/{userid}": {
+      "put": {
+        "tags": [
+          "User"
+        ],
+        "summary": "Sửa User",
+        "parameters": [
+          {
+            "name": "userid",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "nullable": true
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ChangeUserInfo"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ChangeUserInfo"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/ChangeUserInfo"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/User/RoleList": {
+      "get": {
+        "tags": [
+          "User"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Response"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Response"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Response"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/User/Info/{id}": {
+      "get": {
+        "tags": [
+          "User"
+        ],
+        "summary": "Lấy thông tin user ra",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "nullable": true
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Response"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Response"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Response"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/User/EditUser/{id}": {
+      "put": {
+        "tags": [
+          "User"
+        ],
+        "summary": "User chỉnh sửa thông tin",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "nullable": true
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UserchangeInfo"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UserchangeInfo"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/UserchangeInfo"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Response"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Response"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Response"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/User/EditUserEmail/{id}": {
+      "put": {
+        "tags": [
+          "User"
+        ],
+        "summary": "User chỉnh sửa Email",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "nullable": true
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ChangeEmail"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ChangeEmail"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/ChangeEmail"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Response"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Response"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Response"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/User/Confirmmail/{id}": {
+      "post": {
+        "tags": [
+          "User"
+        ],
+        "summary": "Chỉ dùng Test nhanh đỡ phải qua email xác nhận",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "nullable": true
+            }
+          },
+          {
+            "name": "email",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "nullable": true
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/User/ForgotPass": {
+      "put": {
+        "tags": [
+          "User"
+        ],
+        "summary": "User quên pass nhap email để gửi confirm",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Forgotpass"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Forgotpass"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Forgotpass"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Response"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Response"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Response"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/User/Forget/{username}": {
+      "post": {
+        "tags": [
+          "User"
+        ],
+        "summary": "User quên pass nhập username và nhập mk mới khi ấn qua confirm ở Email sẽ có 1 trang kiếm",
+        "parameters": [
+          {
+            "name": "username",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "nullable": true
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "UserPassword": {
+                    "maxLength": 16,
+                    "minLength": 8,
+                    "type": "string",
+                    "format": "password",
+                    "nullable": true
+                  },
+                  "ConfirmPassword": {
+                    "type": "string",
+                    "format": "password",
+                    "nullable": true
+                  }
+                }
+              },
+              "encoding": {
+                "UserPassword": {
+                  "style": "form"
+                },
+                "ConfirmPassword": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Response"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Response"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Response"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/WeatherForecast": {
+      "get": {
+        "tags": [
+          "WeatherForecast"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/WeatherForecast"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/WeatherForecast"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/WeatherForecast"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "QUIZBODY": {
+        "type": "object",
+        "properties": {
+          "questionID": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "questionNo": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "question": {
+            "maxLength": 255,
+            "type": "string",
+            "nullable": true
+          },
+          "rightAnswer": {
+            "maxLength": 255,
+            "type": "string",
+            "nullable": true
+          },
+          "wrongAnswer1": {
+            "maxLength": 255,
+            "type": "string",
+            "nullable": true
+          },
+          "wrongAnswer2": {
+            "maxLength": 255,
+            "type": "string",
+            "nullable": true
+          },
+          "wrongAnswer3": {
+            "maxLength": 255,
+            "type": "string",
+            "nullable": true
+          },
+          "questionScore": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "quizID": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "QUIZ": {
+        "type": "object",
+        "properties": {
+          "quizID": {
+            "type": "string",
+            "nullable": true
+          },
+          "quizName": {
+            "type": "string",
+            "nullable": true
+          },
+          "startTime": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "endTime": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "quizDetail": {
+            "type": "string",
+            "nullable": true
+          },
+          "lessonID": {
+            "type": "string",
+            "nullable": true
+          },
+          "quizbodys": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/QUIZBODY"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "LESSON": {
+        "type": "object",
+        "properties": {
+          "lessonID": {
+            "type": "string",
+            "nullable": true
+          },
+          "lessonName": {
+            "type": "string",
+            "nullable": true
+          },
+          "lessonDetail": {
+            "type": "string",
+            "nullable": true
+          },
+          "lessonDuration": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "urlLesson": {
+            "type": "string",
+            "nullable": true
+          },
+          "courseID": {
+            "type": "string",
+            "nullable": true
+          },
+          "course": {
+            "$ref": "#/components/schemas/COURSE"
+          },
+          "quizs": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/QUIZ"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "COURSE": {
+        "type": "object",
+        "properties": {
+          "courseID": {
+            "type": "string",
+            "nullable": true
+          },
+          "enrolLs": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/ENROLL"
+            },
+            "nullable": true
+          },
+          "lessoNs": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/LESSON"
+            },
+            "nullable": true
+          },
+          "courseName": {
+            "maxLength": 50,
+            "type": "string",
+            "nullable": true
+          },
+          "courseDetail": {
+            "maxLength": 255,
+            "type": "string",
+            "nullable": true
+          },
+          "courseDuration": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "urlLink": {
+            "type": "string",
+            "nullable": true
+          },
+          "filetype": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "ENROLL": {
+        "required": [
+          "accountID",
+          "courseID"
+        ],
+        "type": "object",
+        "properties": {
+          "accountID": {
+            "type": "string"
+          },
+          "account": {
+            "$ref": "#/components/schemas/ACCOUNT"
+          },
+          "courseID": {
+            "type": "string"
+          },
+          "course": {
+            "$ref": "#/components/schemas/COURSE"
+          },
+          "score1": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "score2": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "avgScore": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "COMMENT": {
+        "type": "object",
+        "properties": {
+          "commentID": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "commentDetail": {
+            "maxLength": 255,
+            "type": "string",
+            "nullable": true
+          },
+          "commentTime": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "accountName": {
+            "type": "string",
+            "nullable": true
+          },
+          "accountID": {
+            "type": "string",
+            "nullable": true
+          },
+          "topicID": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "FEEDBACK": {
+        "required": [
+          "expiredDate"
+        ],
+        "type": "object",
+        "properties": {
+          "feedbackID": {
+            "type": "string",
+            "nullable": true
+          },
+          "feedbackName": {
+            "maxLength": 255,
+            "type": "string",
+            "nullable": true
+          },
+          "feedbackDetail": {
+            "maxLength": 255,
+            "type": "string",
+            "nullable": true
+          },
+          "expiredDate": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "ques1": {
+            "type": "string",
+            "nullable": true
+          },
+          "ques2": {
+            "type": "string",
+            "nullable": true
+          },
+          "ques3": {
+            "type": "string",
+            "nullable": true
+          },
+          "ques4": {
+            "type": "string",
+            "nullable": true
+          },
+          "ques5": {
+            "type": "string",
+            "nullable": true
+          },
+          "feedbackAttemps": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/FEEDBACKATTEMP"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "FEEDBACKATTEMP": {
+        "required": [
+          "attempWhen"
+        ],
+        "type": "object",
+        "properties": {
+          "feedbackAttempID": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "accountID": {
+            "maxLength": 8,
+            "type": "string",
+            "nullable": true
+          },
+          "attempWhen": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "feedbackID": {
+            "type": "string",
+            "nullable": true
+          },
+          "feedback": {
+            "$ref": "#/components/schemas/FEEDBACK"
+          },
+          "answer1": {
+            "type": "string",
+            "nullable": true
+          },
+          "answer2": {
+            "type": "string",
+            "nullable": true
+          },
+          "answer3": {
+            "type": "string",
+            "nullable": true
+          },
+          "answer4": {
+            "type": "string",
+            "nullable": true
+          },
+          "answer5": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "ACCOUNT": {
+        "required": [
+          "email",
+          "id",
+          "name",
+          "ngaySinh",
+          "userName",
+          "userPassword"
+        ],
+        "type": "object",
+        "properties": {
+          "id": {
+            "maxLength": 8,
+            "type": "string"
+          },
+          "name": {
+            "maxLength": 50,
+            "type": "string"
+          },
+          "email": {
+            "type": "string",
+            "format": "email"
+          },
+          "ngaySinh": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "phone": {
+            "maxLength": 11,
+            "minLength": 0,
+            "type": "string",
+            "format": "tel",
+            "nullable": true
+          },
+          "userName": {
+            "maxLength": 16,
+            "minLength": 5,
+            "type": "string"
+          },
+          "userPassword": {
+            "maxLength": 16,
+            "minLength": 8,
+            "type": "string",
+            "format": "password"
+          },
+          "isMailConfirmed": {
+            "type": "boolean"
+          },
+          "gioiTinh": {
+            "type": "string",
+            "nullable": true
+          },
+          "userRole": {
+            "type": "string",
+            "nullable": true
+          },
+          "learningRank": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "enrolls": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/ENROLL"
+            },
+            "nullable": true
+          },
+          "comments": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/COMMENT"
+            },
+            "nullable": true
+          },
+          "feedbackAttemps": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/FEEDBACKATTEMP"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "CLASSMEMBER": {
+        "required": [
+          "courseID"
+        ],
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "courseID": {
+            "type": "string"
+          },
+          "course": {
+            "$ref": "#/components/schemas/COURSE"
+          },
+          "instructorID": {
+            "type": "string",
+            "nullable": true
+          },
+          "instructor": {
+            "$ref": "#/components/schemas/ACCOUNT"
+          },
+          "mentorID": {
+            "type": "string",
+            "nullable": true
+          },
+          "mentor": {
+            "$ref": "#/components/schemas/ACCOUNT"
+          },
+          "classAdminID": {
+            "type": "string",
+            "nullable": true
+          },
+          "classadmin": {
+            "$ref": "#/components/schemas/ACCOUNT"
+          }
+        },
+        "additionalProperties": false
+      },
+      "Response": {
+        "type": "object",
+        "properties": {
+          "status": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "message": {
+            "type": "string",
+            "nullable": true
+          },
+          "data": {
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "CommentInput": {
+        "type": "object",
+        "properties": {
+          "accountID": {
+            "type": "string",
+            "nullable": true
+          },
+          "topicID": {
+            "type": "string",
+            "nullable": true
+          },
+          "commentDetail": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "CourseCreate": {
+        "type": "object",
+        "properties": {
+          "courseID": {
+            "type": "string",
+            "nullable": true
+          },
+          "courseName": {
+            "maxLength": 50,
+            "type": "string",
+            "nullable": true
+          },
+          "courseDetail": {
+            "maxLength": 255,
+            "type": "string",
+            "nullable": true
+          },
+          "courseDuration": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "urlLink": {
+            "type": "string",
+            "nullable": true
+          },
+          "imageCouse": {
+            "type": "string",
+            "format": "byte",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "LessonCourse": {
+        "type": "object",
+        "properties": {
+          "courseName": {
+            "maxLength": 50,
+            "type": "string",
+            "nullable": true
+          },
+          "courseDetail": {
+            "maxLength": 255,
+            "type": "string",
+            "nullable": true
+          },
+          "courseDuration": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "urlLink": {
+            "type": "string",
+            "nullable": true
+          },
+          "urlLesson": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "EnrollCourse": {
+        "type": "object",
+        "properties": {
+          "courseID": {
+            "type": "string",
+            "nullable": true
+          },
+          "accountID": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "EditCourseUser": {
+        "type": "object",
+        "properties": {
+          "score1": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "score2": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "avgScore": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "FeedbackQuestion": {
+        "type": "object",
+        "properties": {
+          "ques1": {
+            "type": "string",
+            "nullable": true
+          },
+          "ques2": {
+            "type": "string",
+            "nullable": true
+          },
+          "ques3": {
+            "type": "string",
+            "nullable": true
+          },
+          "ques4": {
+            "type": "string",
+            "nullable": true
+          },
+          "ques5": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "CreateFeedback": {
+        "required": [
+          "expiredDate"
+        ],
+        "type": "object",
+        "properties": {
+          "feedbackName": {
+            "maxLength": 255,
+            "type": "string",
+            "nullable": true
+          },
+          "feedbackDetail": {
+            "maxLength": 255,
+            "type": "string",
+            "nullable": true
+          },
+          "expiredDate": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "ques1": {
+            "type": "string",
+            "nullable": true
+          },
+          "ques2": {
+            "type": "string",
+            "nullable": true
+          },
+          "ques3": {
+            "type": "string",
+            "nullable": true
+          },
+          "ques4": {
+            "type": "string",
+            "nullable": true
+          },
+          "ques5": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "CreateFeedbackattemp": {
+        "required": [
+          "attempWhen"
+        ],
+        "type": "object",
+        "properties": {
+          "feedbackAttempID": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "accountID": {
+            "maxLength": 8,
+            "type": "string",
+            "nullable": true
+          },
+          "attempWhen": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "feedbackID": {
+            "type": "string",
+            "nullable": true
+          },
+          "answer1": {
+            "type": "string",
+            "nullable": true
+          },
+          "answer2": {
+            "type": "string",
+            "nullable": true
+          },
+          "answer3": {
+            "type": "string",
+            "nullable": true
+          },
+          "answer4": {
+            "type": "string",
+            "nullable": true
+          },
+          "answer5": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "LessonInput": {
+        "type": "object",
+        "properties": {
+          "lessonID": {
+            "maxLength": 5,
+            "type": "string",
+            "nullable": true
+          },
+          "lessonName": {
+            "maxLength": 50,
+            "type": "string",
+            "nullable": true
+          },
+          "lessonDetail": {
+            "maxLength": 255,
+            "type": "string",
+            "nullable": true
+          },
+          "lessonDuration": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "urlLesson": {
+            "type": "string",
+            "nullable": true
+          },
+          "courseID": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "LessonCreate": {
+        "type": "object",
+        "properties": {
+          "lessonID": {
+            "type": "string",
+            "nullable": true
+          },
+          "lessonName": {
+            "type": "string",
+            "nullable": true
+          },
+          "lessonDetail": {
+            "type": "string",
+            "nullable": true
+          },
+          "lessonDuration": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "urlLesson": {
+            "type": "string",
+            "nullable": true
+          },
+          "courseID": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "LoginRequest": {
+        "type": "object",
+        "properties": {
+          "userName": {
+            "type": "string",
+            "nullable": true
+          },
+          "password": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "NOTIFY": {
+        "type": "object",
+        "properties": {
+          "notifyID": {
+            "type": "string",
+            "nullable": true
+          },
+          "notifyName": {
+            "type": "string",
+            "nullable": true
+          },
+          "notifyDetail": {
+            "type": "string",
+            "nullable": true
+          },
+          "isConfirmed": {
+            "type": "boolean",
+            "default": false
+          },
+          "isOutDated": {
+            "type": "boolean",
+            "default": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "QuizInput": {
+        "type": "object",
+        "properties": {
+          "quizID": {
+            "type": "string",
+            "nullable": true
+          },
+          "quizName": {
+            "type": "string",
+            "nullable": true
+          },
+          "startTime": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "endTime": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "quizDetail": {
+            "type": "string",
+            "nullable": true
+          },
+          "lessonID": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "QuestionInput": {
+        "type": "object",
+        "properties": {
+          "questionNo": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "question": {
+            "type": "string",
+            "nullable": true
+          },
+          "rightAnswer": {
+            "type": "string",
+            "nullable": true
+          },
+          "wrongAnswer1": {
+            "type": "string",
+            "nullable": true
+          },
+          "wrongAnswer2": {
+            "type": "string",
+            "nullable": true
+          },
+          "wrongAnswer3": {
+            "type": "string",
+            "nullable": true
+          },
+          "questionScore": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "QUIZATTEMP": {
+        "type": "object",
+        "properties": {
+          "attempID": {
+            "maxLength": 20,
+            "type": "string",
+            "nullable": true
+          },
+          "quizID": {
+            "maxLength": 5,
+            "type": "string",
+            "nullable": true
+          },
+          "accountID": {
+            "maxLength": 8,
+            "type": "string",
+            "nullable": true
+          },
+          "score": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "AccountCreate": {
+        "required": [
+          "confirmPassword",
+          "email",
+          "name",
+          "ngaySinh",
+          "userName",
+          "userPassword"
+        ],
+        "type": "object",
+        "properties": {
+          "name": {
+            "maxLength": 50,
+            "type": "string"
+          },
+          "email": {
+            "type": "string",
+            "format": "email"
+          },
+          "ngaySinh": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "phone": {
+            "type": "string",
+            "nullable": true
+          },
+          "userName": {
+            "maxLength": 16,
+            "minLength": 5,
+            "type": "string"
+          },
+          "userPassword": {
+            "maxLength": 16,
+            "minLength": 8,
+            "type": "string",
+            "format": "password"
+          },
+          "confirmPassword": {
+            "type": "string",
+            "format": "password"
+          },
+          "gioiTinh": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "ChangePassword": {
+        "required": [
+          "confirmPassword",
+          "oldPassword",
+          "userName",
+          "userPassword"
+        ],
+        "type": "object",
+        "properties": {
+          "userName": {
+            "maxLength": 16,
+            "minLength": 5,
+            "type": "string"
+          },
+          "oldPassword": {
+            "maxLength": 16,
+            "minLength": 8,
+            "type": "string",
+            "format": "password"
+          },
+          "userPassword": {
+            "maxLength": 16,
+            "minLength": 8,
+            "type": "string",
+            "format": "password"
+          },
+          "confirmPassword": {
+            "type": "string",
+            "format": "password"
+          }
+        },
+        "additionalProperties": false
+      },
+      "RESPONSIBILITY": {
+        "required": [
+          "accountID",
+          "courseID"
+        ],
+        "type": "object",
+        "properties": {
+          "accountID": {
+            "type": "string"
+          },
+          "account": {
+            "$ref": "#/components/schemas/ACCOUNT"
+          },
+          "courseID": {
+            "type": "string"
+          },
+          "course": {
+            "$ref": "#/components/schemas/COURSE"
+          }
+        },
+        "additionalProperties": false
+      },
+      "StudentInfo": {
+        "type": "object",
+        "properties": {
+          "studentID": {
+            "type": "string",
+            "nullable": true
+          },
+          "name": {
+            "type": "string",
+            "nullable": true
+          },
+          "ngaySinh": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "gioiTinh": {
+            "type": "string",
+            "nullable": true
+          },
+          "email": {
+            "type": "string",
+            "nullable": true
+          },
+          "phone": {
+            "type": "string",
+            "nullable": true
+          },
+          "score1": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "score2": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "avgScore": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "POINT": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "folder": {
+            "type": "string",
+            "nullable": true
+          },
+          "url": {
+            "type": "string",
+            "nullable": true
+          },
+          "dateSubmit": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "point": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "TOPIC": {
+        "type": "object",
+        "properties": {
+          "topicID": {
+            "type": "string",
+            "nullable": true
+          },
+          "topicName": {
+            "type": "string",
+            "nullable": true
+          },
+          "topicDetail": {
+            "type": "string",
+            "nullable": true
+          },
+          "isOutDated": {
+            "type": "boolean",
+            "default": false
+          },
+          "comments": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/COMMENT"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "TopicInput": {
+        "type": "object",
+        "properties": {
+          "topicName": {
+            "type": "string",
+            "nullable": true
+          },
+          "topicDetail": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "CreateUser": {
+        "required": [
+          "name",
+          "ngaySinh",
+          "userName",
+          "userPassword",
+          "userRole"
+        ],
+        "type": "object",
+        "properties": {
+          "name": {
+            "maxLength": 50,
+            "type": "string"
+          },
+          "email": {
+            "type": "string",
+            "nullable": true
+          },
+          "ngaySinh": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "phone": {
+            "type": "string",
+            "nullable": true
+          },
+          "userName": {
+            "maxLength": 16,
+            "minLength": 5,
+            "type": "string"
+          },
+          "userPassword": {
+            "maxLength": 16,
+            "minLength": 8,
+            "type": "string",
+            "format": "password"
+          },
+          "userRole": {
+            "maxLength": 50,
+            "type": "string"
+          },
+          "gioiTinh": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "ChangeUserInfo": {
+        "required": [
+          "name",
+          "ngaySinh",
+          "userPassword",
+          "userRole"
+        ],
+        "type": "object",
+        "properties": {
+          "name": {
+            "maxLength": 50,
+            "type": "string"
+          },
+          "ngaySinh": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "phone": {
+            "type": "string",
+            "nullable": true
+          },
+          "userPassword": {
+            "maxLength": 16,
+            "minLength": 8,
+            "type": "string",
+            "format": "password"
+          },
+          "gioiTinh": {
+            "type": "string",
+            "nullable": true
+          },
+          "userRole": {
+            "maxLength": 50,
+            "type": "string"
+          },
+          "learningRank": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "UserchangeInfo": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "maxLength": 50,
+            "type": "string",
+            "nullable": true
+          },
+          "ngaySinh": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "phone": {
+            "type": "string",
+            "nullable": true
+          },
+          "gioiTinh": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "ChangeEmail": {
+        "required": [
+          "email"
+        ],
+        "type": "object",
+        "properties": {
+          "email": {
+            "type": "string",
+            "format": "email"
+          }
+        },
+        "additionalProperties": false
+      },
+      "Forgotpass": {
+        "required": [
+          "email",
+          "userName"
+        ],
+        "type": "object",
+        "properties": {
+          "email": {
+            "type": "string",
+            "format": "email"
+          },
+          "userName": {
+            "maxLength": 16,
+            "minLength": 5,
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      },
+      "WeatherForecast": {
+        "type": "object",
+        "properties": {
+          "date": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "temperatureC": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "temperatureF": {
+            "type": "integer",
+            "format": "int32",
+            "readOnly": true
+          },
+          "summary": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  }
+}

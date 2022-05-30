@@ -1,0 +1,252 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>LmsBackEnd</name>
+    </assembly>
+    <members>
+        <member name="M:LmsBackEnd.Controllers.ClassMemberController.GetInstructorList">
+            <summary>danh sách instructor</summary>
+        </member>
+        <member name="M:LmsBackEnd.Controllers.ClassMemberController.GetMentorList">
+            <summary>danh sách mentor</summary>
+        </member>
+        <member name="M:LmsBackEnd.Controllers.ClassMemberController.GetClassAdminList">
+            <summary>danh sách class admin</summary>
+        </member>
+        <member name="M:LmsBackEnd.Controllers.ClassMemberController.GetCourseList">
+            <summary>danh sách khóa học</summary>
+        </member>
+        <member name="M:LmsBackEnd.Controllers.ClassMemberController.GetClassMemberList">
+            <summary>danh sách instructor, mentor, class admin của khóa học</summary>
+        </member>
+        <member name="M:LmsBackEnd.Controllers.ClassMemberController.GetClassMemberListByCourse(System.String)">
+            <summary>danh sách instructor, mentor, class admin của khóa học theo CourseID</summary>
+        </member>
+        <member name="M:LmsBackEnd.Controllers.ClassMemberController.AssignClassMember(System.String,System.String,System.String,System.String)">
+            <summary>Assing instructor, mentor và class admin vào khóa học</summary>
+        </member>
+        <member name="M:LmsBackEnd.Controllers.CommentController.ListTopicComment(System.String)">
+            <summary>Xuất ra list comment của topic</summary>
+        </member>
+        <member name="M:LmsBackEnd.Controllers.CommentController.CreateComment(LmsBackEnd.ModelHelper.CommentInput)">
+            <summary>Viết comment</summary>
+        </member>
+        <member name="M:LmsBackEnd.Controllers.NotificationController.GetAllNotifyAdmin">
+            <summary>Tìm tất cả Thông báo thêm hiển thị cho admin phê duyệt</summary>
+        </member>
+        <member name="M:LmsBackEnd.Controllers.NotificationController.GetAllNotify">
+            <summary>Tìm tất cả Thông báo thêm hiển thị lên trang chủ</summary>
+        </member>
+        <member name="M:LmsBackEnd.Controllers.NotificationController.ListNotification(LmsBackEnd.FilterPage,System.String)">
+            <summary>Xem danh sách Thông báo đã phân trang</summary>
+        </member>
+        <member name="M:LmsBackEnd.Controllers.NotificationController.CreateNotification(LmsBackEnd.NOTIFY)">
+            <summary>Tạo thông báo</summary>
+        </member>
+        <member name="M:LmsBackEnd.Controllers.NotificationController.ChangeNotificationStatus(System.String)">
+            <summary>Duyệt thông báo</summary>
+        </member>
+        <member name="M:LmsBackEnd.Controllers.QuizController.ListQuiz">
+            <summary>Xuất toàn bộ quiz</summary>
+        </member>
+        <member name="M:LmsBackEnd.Controllers.QuizController.GetQuizByID(System.String)">
+            <summary>Xuất thông tin của một quiz</summary>
+        </member>
+        <member name="M:LmsBackEnd.Controllers.QuizController.ListQuestion(System.String)">
+            <summary>Xuất toàn bộ question của quiz</summary>
+        </member>
+        <member name="M:LmsBackEnd.Controllers.QuizController.CreateQuestion(LmsBackEnd.ModelHelper.QuizInput)">
+            <summary>Tạo quiz</summary>
+        </member>
+        <member name="M:LmsBackEnd.Controllers.QuizController.CreateQuestion(LmsBackEnd.ModelHelper.QuestionInput,System.String)">
+            <summary>Tạo question cho quiz</summary>
+        </member>
+        <member name="M:LmsBackEnd.Controllers.QuizController.GetQuestion(System.String,System.Int32)">
+            <summary>Lấy question và trộn đáp án</summary>
+        </member>
+        <member name="M:LmsBackEnd.Controllers.QuizController.CheckAnswer(System.String,System.Int32,System.String)">
+            <summary>kiểm tra đáp án</summary>
+        </member>
+        <member name="M:LmsBackEnd.Controllers.QuizController.SubmitQuiz(System.String,System.String,System.Int32)">
+            <summary>nộp bài</summary>
+        </member>
+        <member name="M:LmsBackEnd.Controllers.RegisterController.AddUser(LmsBackEnd.Dtos.AccountCreate)">
+            <summary>Đăng ký</summary>
+             <response code="201">Tạo tài khoản thành công !</response>
+             <response code="400">Các trường không được bỏ trống !</response>  
+        </member>
+        <member name="M:LmsBackEnd.Controllers.RegisterController.ConfirmMail(System.String)">
+            <summary>Nhập tài khoản để xác nhận email</summary>
+        </member>
+        <member name="M:LmsBackEnd.Controllers.RegisterController.ChangePassword(LmsBackEnd.ChangePassword)">
+            <summary>Đổi mật khẩu</summary>
+             <response code="202">Đổi mật khẩu thành công thành công !</response>
+             <response code="400">Đổi mật khẩu không thành công !</response>  
+        </member>
+        <member name="M:LmsBackEnd.Controllers.ResponsibilityController.GetTeacherList">
+            <summary>danh sách giáo viên</summary>
+        </member>
+        <member name="M:LmsBackEnd.Controllers.ResponsibilityController.GetCourseList">
+            <summary>danh sách khóa học</summary>
+        </member>
+        <member name="M:LmsBackEnd.Controllers.ResponsibilityController.AssignTeacher(System.String,System.String)">
+            <summary>Assing giáo viên vào khóa học</summary>
+        </member>
+        <member name="M:LmsBackEnd.Controllers.ResponsibilityController.GetReponsibilityList">
+            <summary>danh sách phân công giáo viên</summary>
+        </member>
+        <member name="M:LmsBackEnd.Controllers.StudentController.ListAccount">
+            <summary>xuất toàn bộ danh sách học viên(viết phòng hờ có thể ko cần dùng)</summary>
+        </member>
+        <member name="M:LmsBackEnd.Controllers.StudentController.ListAccountByCourse(System.String)">
+            <summary>xuất toàn bộ học viên của 1 khóa học</summary>
+        </member>
+        <member name="M:LmsBackEnd.Controllers.StudentController.StudentInfo(System.String,System.String)">
+            <summary>Lấy thông tin học viên thuộc khóa học</summary>
+        </member>
+        <member name="M:LmsBackEnd.Controllers.StudentController.SearchStudent(System.String)">
+            <summary>Tìm học viên</summary>
+        </member>
+        <member name="M:LmsBackEnd.Controllers.StudentController.AddStudent(System.String,System.String)">
+            <summary>Thêm học viên vào khóa học</summary>
+        </member>
+        <member name="M:LmsBackEnd.Controllers.StudentController.DeleteStudent(System.String,System.String)">
+            <summary>Xóa học viên khỏi khóa học</summary>
+        </member>
+        <member name="M:LmsBackEnd.Controllers.StudentController.WriteScore(System.String,System.String,System.Int32,System.Int32)">
+            <summary>Sửa điểm cho học viên</summary>
+        </member>
+        <member name="M:LmsBackEnd.Controllers.TopicController.ListTopic">
+            <summary>Xuất danh sách topic</summary>
+        </member>
+        <member name="M:LmsBackEnd.Controllers.TopicController.CreateTopic(LmsBackEnd.ModelHelper.TopicInput)">
+            <summary>Tạo topic</summary>
+        </member>
+        <member name="M:LmsBackEnd.Controllers.TopicController.ChangeTopicStatus(System.String)">
+            <summary>Đổi topic IsOutdated = true</summary>
+        </member>
+        <member name="M:LmsBackEnd.CourseController.AddCoursewithImg(LmsBackEnd.CourseCreate,Microsoft.AspNetCore.Http.IFormFile)">
+            <summary>Thêm khóa học va hình ảnh</summary>
+        </member>
+        <member name="M:LmsBackEnd.CourseController.Postimgs(Microsoft.AspNetCore.Http.IFormFile,System.String)">
+            <summary>Upload anh cho KH</summary>
+        </member>
+        <member name="M:LmsBackEnd.CourseController.Getimgs(System.String)">
+            <summary>Get anh cho KH</summary>
+        </member>
+        <member name="M:LmsBackEnd.CourseController.Dowimgs(System.String)">
+            <summary>Tải ảnh xuống cho KH</summary>
+        </member>
+        <member name="M:LmsBackEnd.CourseController.GetLessonsByIDCourse(System.String)">
+            <summary>Tìm bài học theo khóa học</summary>
+        </member>
+        <member name="M:LmsBackEnd.CourseController.GetALLCoursList(System.String)">
+            <summary>Tìm tất cả Khóa học thêm vào slide</summary>
+        </member>
+        <member name="M:LmsBackEnd.CourseController.GetCoursList(LmsBackEnd.FilterPage,System.String)">
+            <summary>Lấy danh sách khóa học theo phân trang - ID - Name </summary>
+        </member>
+        <member name="M:LmsBackEnd.CourseController.AddCourse(LmsBackEnd.CourseCreate)">
+            <summary>Thêm khóa học</summary>
+        </member>
+        <member name="M:LmsBackEnd.CourseController.DeleteCourse(System.String)">
+            <summary>Xóa khóa học</summary>
+        </member>
+        <member name="M:LmsBackEnd.CourseController.UpdateCourse(System.String,LmsBackEnd.LessonCourse)">
+            <summary>Cập nhật khóa học</summary>
+        </member>
+        <member name="M:LmsBackEnd.CourseController.SearchCourseByID(System.String)">
+            <summary>Tìm khóa học theo id</summary>
+        </member>
+        <member name="M:LmsBackEnd.CourseController.SearchCourseByName(System.String)">
+            <summary>Tìm khóa học theo name</summary>
+        </member>
+        <member name="M:LmsBackEnd.CourseController.GetAllEnroll">
+            <summary> Lấy tất cả đăng kí Khóa học</summary>
+        </member>
+        <member name="M:LmsBackEnd.CourseController.GetEnrolledCourseByID(System.String)">
+            <summary>Lấy tất cả các khóa học đã đăng ký của user</summary>
+        </member>
+        <member name="M:LmsBackEnd.CourseController.EnrollCourse(LmsBackEnd.EnrollCourse)">
+            <summary>User đăng kí khóa học</summary>
+        </member>
+        <member name="M:LmsBackEnd.CourseController.DelEnrollCourse(System.String,System.String)">
+            <summary>Xóa User khỏi khóa học</summary>
+        </member>
+        <member name="M:LmsBackEnd.CourseController.UpdateEnroll(System.String,System.String,LmsBackEnd.EditCourseUser)">
+            <summary>Cập nhật khóa học đã đăng kí của User</summary>
+        </member>
+        <member name="M:LmsBackEnd.FeedbackController.GetAllQues">
+            <summary>Danh sách các feedback câu hỏi khảo sát</summary>
+        </member>
+        <member name="M:LmsBackEnd.FeedbackController.GetQuesByID(System.String)">
+            <summary>Danh sách câu hỏi theo Id</summary>
+        </member>
+        <member name="M:LmsBackEnd.FeedbackController.GetAll">
+            <summary>Danh sách các khảo sát</summary>
+        </member>
+        <member name="M:LmsBackEnd.FeedbackController.GetAllQuesByTeacher">
+            <summary>Danh sách các Feedback cho thầy cô với từng đánh giá</summary>
+        </member>
+        <member name="M:LmsBackEnd.FeedbackController.byId(System.String)">
+            <summary>Lấy Feedback theo ID cho thầy cô với từng đánh giá</summary>
+        </member>
+        <member name="M:LmsBackEnd.FeedbackController.GetAllAnswer">
+            <summary>Danh sách các feedback từ sv</summary>
+        </member>
+        <member name="M:LmsBackEnd.FeedbackController.CreateFeedback(LmsBackEnd.CreateFeedback)">
+            <summary>Tao Feedback</summary>
+        </member>
+        <member name="M:LmsBackEnd.FeedbackController.AnswerFeedback(LmsBackEnd.CreateFeedbackattemp)">
+            <summary>Tra loi Feedback</summary>
+        </member>
+        <member name="M:LmsBackEnd.FeedbackController.GetFeedByIdUser(System.String,System.String)">
+            <summary>Check da khao sat</summary>
+        </member>
+        <member name="M:LmsBackEnd.LessonForAdmin.GetLessonList(LmsBackEnd.FilterPage,System.String)">
+            <summary>Xem danh sách các bài học</summary>
+        </member>
+        <member name="M:LmsBackEnd.LessonForAdmin.AddLesson(LmsBackEnd.LessonCreate)">
+            <summary>Admin thêm bài học vào khóa học</summary>
+        </member>
+        <member name="M:LmsBackEnd.LessonForAdmin.UpdateLesson(LmsBackEnd.LessonCreate)">
+            <summary>Sủa bài học</summary>
+        </member>
+        <member name="M:LmsBackEnd.UserController.GetAllUser">
+            <summary>Tìm tất cả User thêm vào slide</summary>
+        </member>
+        <member name="M:LmsBackEnd.UserController.GetUserList(LmsBackEnd.FilterPage,System.String)">
+            <summary>Xem danh sách User Theo phân trang</summary>
+        </member>
+        <member name="M:LmsBackEnd.UserController.CreateUser(LmsBackEnd.Dtos.CreateUser)">
+            <summary>Thêm User</summary>
+        </member>
+        <member name="M:LmsBackEnd.UserController.DeleteUser(System.String)">
+            <summary>Xóa User</summary>
+        </member>
+        <member name="M:LmsBackEnd.UserController.UpdateUser(LmsBackEnd.Dtos.ChangeUserInfo,System.String)">
+            <summary>Sửa User</summary>
+        </member>
+        <member name="M:LmsBackEnd.UserController.GetALLRole">
+            <sumary>Danh sách các role trong hệ thống</sumary>
+        </member>
+        <member name="M:LmsBackEnd.UserController.GetUserInfo(System.String)">
+            <summary>Lấy thông tin user ra</summary>
+        </member>
+        <member name="M:LmsBackEnd.UserController.EditUser(System.String,LmsBackEnd.Dtos.UserchangeInfo)">
+            <summary>User chỉnh sửa thông tin</summary>
+        </member>
+        <member name="M:LmsBackEnd.UserController.EditEmailUser(System.String,LmsBackEnd.ChangeEmail)">
+            <summary>User chỉnh sửa Email</summary>
+        </member>
+        <member name="M:LmsBackEnd.UserController.ConfirmMail(System.String,System.String)">
+            <summary>Chỉ dùng Test nhanh đỡ phải qua email xác nhận</summary>
+        </member>
+        <member name="M:LmsBackEnd.UserController.Forget(LmsBackEnd.Forgotpass)">
+            <summary>User quên pass nhap email để gửi confirm</summary>
+        </member>
+        <member name="M:LmsBackEnd.UserController.Forget(System.String,LmsBackEnd.ForgetPass)">
+            <summary>User quên pass nhập username và nhập mk mới khi ấn qua confirm ở Email sẽ có 1 trang kiếm</summary>
+        </member>
+    </members>
+</doc>

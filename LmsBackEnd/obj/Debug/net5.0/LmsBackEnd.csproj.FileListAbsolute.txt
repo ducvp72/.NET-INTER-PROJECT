@@ -1,0 +1,832 @@
+E:\BackEnd\BackEnd\LmsBackEnd\bin\Debug\net5.0\appsettings.Development.json
+E:\BackEnd\BackEnd\LmsBackEnd\bin\Debug\net5.0\appsettings.json
+E:\BackEnd\BackEnd\LmsBackEnd\bin\Debug\net5.0\LmsBackEnd.exe
+E:\BackEnd\BackEnd\LmsBackEnd\bin\Debug\net5.0\LmsBackEnd.deps.json
+E:\BackEnd\BackEnd\LmsBackEnd\bin\Debug\net5.0\LmsBackEnd.runtimeconfig.json
+E:\BackEnd\BackEnd\LmsBackEnd\bin\Debug\net5.0\LmsBackEnd.runtimeconfig.dev.json
+E:\BackEnd\BackEnd\LmsBackEnd\bin\Debug\net5.0\LmsBackEnd.dll
+E:\BackEnd\BackEnd\LmsBackEnd\bin\Debug\net5.0\ref\LmsBackEnd.dll
+E:\BackEnd\BackEnd\LmsBackEnd\bin\Debug\net5.0\LmsBackEnd.pdb
+E:\BackEnd\BackEnd\LmsBackEnd\bin\Debug\net5.0\Humanizer.dll
+E:\BackEnd\BackEnd\LmsBackEnd\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+E:\BackEnd\BackEnd\LmsBackEnd\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+E:\BackEnd\BackEnd\LmsBackEnd\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\BackEnd\BackEnd\LmsBackEnd\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+E:\BackEnd\BackEnd\LmsBackEnd\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+E:\BackEnd\BackEnd\LmsBackEnd\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+E:\BackEnd\BackEnd\LmsBackEnd\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+E:\BackEnd\BackEnd\LmsBackEnd\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+E:\BackEnd\BackEnd\LmsBackEnd\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\BackEnd\BackEnd\LmsBackEnd\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+E:\BackEnd\BackEnd\LmsBackEnd\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+E:\BackEnd\BackEnd\LmsBackEnd\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\BackEnd\BackEnd\LmsBackEnd\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+E:\BackEnd\BackEnd\LmsBackEnd\bin\Debug\net5.0\Microsoft.OpenApi.dll
+E:\BackEnd\BackEnd\LmsBackEnd\bin\Debug\net5.0\Newtonsoft.Json.dll
+E:\BackEnd\BackEnd\LmsBackEnd\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+E:\BackEnd\BackEnd\LmsBackEnd\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+E:\BackEnd\BackEnd\LmsBackEnd\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+E:\BackEnd\BackEnd\LmsBackEnd\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+E:\BackEnd\BackEnd\LmsBackEnd\bin\Debug\net5.0\System.Data.SqlClient.dll
+E:\BackEnd\BackEnd\LmsBackEnd\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+E:\BackEnd\BackEnd\LmsBackEnd\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+E:\BackEnd\BackEnd\LmsBackEnd\bin\Debug\net5.0\System.Runtime.Caching.dll
+E:\BackEnd\BackEnd\LmsBackEnd\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+E:\BackEnd\BackEnd\LmsBackEnd\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\BackEnd\BackEnd\LmsBackEnd\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\BackEnd\BackEnd\LmsBackEnd\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+E:\BackEnd\BackEnd\LmsBackEnd\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+E:\BackEnd\BackEnd\LmsBackEnd\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\BackEnd\BackEnd\LmsBackEnd\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+E:\BackEnd\BackEnd\LmsBackEnd\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\BackEnd\BackEnd\LmsBackEnd\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+E:\BackEnd\BackEnd\LmsBackEnd\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+E:\BackEnd\BackEnd\LmsBackEnd\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+E:\BackEnd\BackEnd\LmsBackEnd\bin\Debug\net5.0\runtimes\win-arm64\native\sni.dll
+E:\BackEnd\BackEnd\LmsBackEnd\bin\Debug\net5.0\runtimes\win-x64\native\sni.dll
+E:\BackEnd\BackEnd\LmsBackEnd\bin\Debug\net5.0\runtimes\win-x86\native\sni.dll
+E:\BackEnd\BackEnd\LmsBackEnd\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+E:\BackEnd\BackEnd\LmsBackEnd\bin\Debug\net5.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+E:\BackEnd\BackEnd\LmsBackEnd\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+E:\BackEnd\BackEnd\LmsBackEnd\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+E:\BackEnd\BackEnd\LmsBackEnd\obj\Debug\net5.0\LmsBackEnd.csproj.AssemblyReference.cache
+E:\BackEnd\BackEnd\LmsBackEnd\obj\Debug\net5.0\LmsBackEnd.GeneratedMSBuildEditorConfig.editorconfig
+E:\BackEnd\BackEnd\LmsBackEnd\obj\Debug\net5.0\LmsBackEnd.AssemblyInfoInputs.cache
+E:\BackEnd\BackEnd\LmsBackEnd\obj\Debug\net5.0\LmsBackEnd.AssemblyInfo.cs
+E:\BackEnd\BackEnd\LmsBackEnd\obj\Debug\net5.0\LmsBackEnd.csproj.CoreCompileInputs.cache
+E:\BackEnd\BackEnd\LmsBackEnd\obj\Debug\net5.0\LmsBackEnd.MvcApplicationPartsAssemblyInfo.cs
+E:\BackEnd\BackEnd\LmsBackEnd\obj\Debug\net5.0\LmsBackEnd.MvcApplicationPartsAssemblyInfo.cache
+E:\BackEnd\BackEnd\LmsBackEnd\obj\Debug\net5.0\staticwebassets\LmsBackEnd.StaticWebAssets.Manifest.cache
+E:\BackEnd\BackEnd\LmsBackEnd\obj\Debug\net5.0\staticwebassets\LmsBackEnd.StaticWebAssets.xml
+E:\BackEnd\BackEnd\LmsBackEnd\obj\Debug\net5.0\scopedcss\bundle\LmsBackEnd.styles.css
+E:\BackEnd\BackEnd\LmsBackEnd\obj\Debug\net5.0\LmsBackEnd.RazorTargetAssemblyInfo.cache
+E:\BackEnd\BackEnd\LmsBackEnd\obj\Debug\net5.0\LmsBackEnd.csproj.CopyComplete
+E:\BackEnd\BackEnd\LmsBackEnd\obj\Debug\net5.0\LmsBackEnd.dll
+E:\BackEnd\BackEnd\LmsBackEnd\obj\Debug\net5.0\ref\LmsBackEnd.dll
+E:\BackEnd\BackEnd\LmsBackEnd\obj\Debug\net5.0\LmsBackEnd.pdb
+E:\BackEnd\BackEnd\LmsBackEnd\obj\Debug\net5.0\LmsBackEnd.genruntimeconfig.cache
+E:\GitLab\LMS\lms\LmsBackEnd\obj\Debug\net5.0\LmsBackEnd.csproj.AssemblyReference.cache
+E:\GitLab\LMS\lms\LmsBackEnd\obj\Debug\net5.0\LmsBackEnd.GeneratedMSBuildEditorConfig.editorconfig
+E:\GitLab\LMS\lms\LmsBackEnd\obj\Debug\net5.0\LmsBackEnd.AssemblyInfoInputs.cache
+E:\GitLab\LMS\lms\LmsBackEnd\obj\Debug\net5.0\LmsBackEnd.AssemblyInfo.cs
+E:\GitLab\LMS\lms\LmsBackEnd\obj\Debug\net5.0\LmsBackEnd.csproj.CoreCompileInputs.cache
+E:\GitLab\LMS\lms\LmsBackEnd\obj\Debug\net5.0\LmsBackEnd.MvcApplicationPartsAssemblyInfo.cs
+E:\GitLab\LMS\lms\LmsBackEnd\obj\Debug\net5.0\LmsBackEnd.MvcApplicationPartsAssemblyInfo.cache
+E:\GitLab\LMS\lms\LmsBackEnd\obj\Debug\net5.0\LmsBackEnd.dll
+E:\GitLab\LMS\lms\LmsBackEnd\obj\Debug\net5.0\ref\LmsBackEnd.dll
+E:\GitLab\LMS\lms\LmsBackEnd\obj\Debug\net5.0\LmsBackEnd.pdb
+E:\GitLab\LMS\lms\LmsBackEnd\bin\Debug\net5.0\appsettings.Development.json
+E:\GitLab\LMS\lms\LmsBackEnd\bin\Debug\net5.0\appsettings.json
+E:\GitLab\LMS\lms\LmsBackEnd\bin\Debug\net5.0\LmsBackEnd.exe
+E:\GitLab\LMS\lms\LmsBackEnd\bin\Debug\net5.0\LmsBackEnd.deps.json
+E:\GitLab\LMS\lms\LmsBackEnd\bin\Debug\net5.0\LmsBackEnd.runtimeconfig.json
+E:\GitLab\LMS\lms\LmsBackEnd\bin\Debug\net5.0\LmsBackEnd.runtimeconfig.dev.json
+E:\GitLab\LMS\lms\LmsBackEnd\bin\Debug\net5.0\LmsBackEnd.dll
+E:\GitLab\LMS\lms\LmsBackEnd\bin\Debug\net5.0\ref\LmsBackEnd.dll
+E:\GitLab\LMS\lms\LmsBackEnd\bin\Debug\net5.0\LmsBackEnd.pdb
+E:\GitLab\LMS\lms\LmsBackEnd\bin\Debug\net5.0\Humanizer.dll
+E:\GitLab\LMS\lms\LmsBackEnd\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+E:\GitLab\LMS\lms\LmsBackEnd\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+E:\GitLab\LMS\lms\LmsBackEnd\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\GitLab\LMS\lms\LmsBackEnd\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+E:\GitLab\LMS\lms\LmsBackEnd\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+E:\GitLab\LMS\lms\LmsBackEnd\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+E:\GitLab\LMS\lms\LmsBackEnd\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+E:\GitLab\LMS\lms\LmsBackEnd\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+E:\GitLab\LMS\lms\LmsBackEnd\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\GitLab\LMS\lms\LmsBackEnd\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+E:\GitLab\LMS\lms\LmsBackEnd\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+E:\GitLab\LMS\lms\LmsBackEnd\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\GitLab\LMS\lms\LmsBackEnd\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+E:\GitLab\LMS\lms\LmsBackEnd\bin\Debug\net5.0\Microsoft.OpenApi.dll
+E:\GitLab\LMS\lms\LmsBackEnd\bin\Debug\net5.0\Newtonsoft.Json.dll
+E:\GitLab\LMS\lms\LmsBackEnd\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+E:\GitLab\LMS\lms\LmsBackEnd\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+E:\GitLab\LMS\lms\LmsBackEnd\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+E:\GitLab\LMS\lms\LmsBackEnd\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+E:\GitLab\LMS\lms\LmsBackEnd\bin\Debug\net5.0\System.Data.SqlClient.dll
+E:\GitLab\LMS\lms\LmsBackEnd\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+E:\GitLab\LMS\lms\LmsBackEnd\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+E:\GitLab\LMS\lms\LmsBackEnd\bin\Debug\net5.0\System.Runtime.Caching.dll
+E:\GitLab\LMS\lms\LmsBackEnd\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+E:\GitLab\LMS\lms\LmsBackEnd\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\GitLab\LMS\lms\LmsBackEnd\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\GitLab\LMS\lms\LmsBackEnd\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+E:\GitLab\LMS\lms\LmsBackEnd\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+E:\GitLab\LMS\lms\LmsBackEnd\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\GitLab\LMS\lms\LmsBackEnd\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+E:\GitLab\LMS\lms\LmsBackEnd\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\GitLab\LMS\lms\LmsBackEnd\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+E:\GitLab\LMS\lms\LmsBackEnd\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+E:\GitLab\LMS\lms\LmsBackEnd\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+E:\GitLab\LMS\lms\LmsBackEnd\bin\Debug\net5.0\runtimes\win-arm64\native\sni.dll
+E:\GitLab\LMS\lms\LmsBackEnd\bin\Debug\net5.0\runtimes\win-x64\native\sni.dll
+E:\GitLab\LMS\lms\LmsBackEnd\bin\Debug\net5.0\runtimes\win-x86\native\sni.dll
+E:\GitLab\LMS\lms\LmsBackEnd\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+E:\GitLab\LMS\lms\LmsBackEnd\bin\Debug\net5.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+E:\GitLab\LMS\lms\LmsBackEnd\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+E:\GitLab\LMS\lms\LmsBackEnd\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+E:\GitLab\LMS\lms\LmsBackEnd\obj\Debug\net5.0\staticwebassets\LmsBackEnd.StaticWebAssets.Manifest.cache
+E:\GitLab\LMS\lms\LmsBackEnd\obj\Debug\net5.0\staticwebassets\LmsBackEnd.StaticWebAssets.xml
+E:\GitLab\LMS\lms\LmsBackEnd\obj\Debug\net5.0\scopedcss\bundle\LmsBackEnd.styles.css
+E:\GitLab\LMS\lms\LmsBackEnd\obj\Debug\net5.0\LmsBackEnd.RazorTargetAssemblyInfo.cache
+E:\GitLab\LMS\lms\LmsBackEnd\obj\Debug\net5.0\LmsBackEnd.csproj.CopyComplete
+E:\GitLab\LMS\lms\LmsBackEnd\obj\Debug\net5.0\LmsBackEnd.genruntimeconfig.cache
+E:\GitLab\LMS\lms\LmsBackEnd\bin\Debug\net5.0\AutoMapper.dll
+E:\GitLab\LMS\lms\LmsBackEnd\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+E:\GitLab\LMS\lms\LmsBackEnd\bin\Debug\net5.0\LmsBackEnd.xml
+E:\GitLab\LMS\lms\LmsBackEnd\obj\Debug\net5.0\LmsBackEnd.xml
+E:\GitLab\wrap\LmsBackEnd\bin\Debug\net5.0\appsettings.Development.json
+E:\GitLab\wrap\LmsBackEnd\bin\Debug\net5.0\appsettings.json
+E:\GitLab\wrap\LmsBackEnd\bin\Debug\net5.0\LmsBackEnd.exe
+E:\GitLab\wrap\LmsBackEnd\bin\Debug\net5.0\LmsBackEnd.deps.json
+E:\GitLab\wrap\LmsBackEnd\bin\Debug\net5.0\LmsBackEnd.runtimeconfig.json
+E:\GitLab\wrap\LmsBackEnd\bin\Debug\net5.0\LmsBackEnd.runtimeconfig.dev.json
+E:\GitLab\wrap\LmsBackEnd\bin\Debug\net5.0\LmsBackEnd.dll
+E:\GitLab\wrap\LmsBackEnd\bin\Debug\net5.0\ref\LmsBackEnd.dll
+E:\GitLab\wrap\LmsBackEnd\bin\Debug\net5.0\LmsBackEnd.pdb
+E:\GitLab\wrap\LmsBackEnd\bin\Debug\net5.0\LmsBackEnd.xml
+E:\GitLab\wrap\LmsBackEnd\bin\Debug\net5.0\AutoMapper.dll
+E:\GitLab\wrap\LmsBackEnd\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+E:\GitLab\wrap\LmsBackEnd\bin\Debug\net5.0\Humanizer.dll
+E:\GitLab\wrap\LmsBackEnd\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+E:\GitLab\wrap\LmsBackEnd\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+E:\GitLab\wrap\LmsBackEnd\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\GitLab\wrap\LmsBackEnd\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+E:\GitLab\wrap\LmsBackEnd\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+E:\GitLab\wrap\LmsBackEnd\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+E:\GitLab\wrap\LmsBackEnd\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+E:\GitLab\wrap\LmsBackEnd\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+E:\GitLab\wrap\LmsBackEnd\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\GitLab\wrap\LmsBackEnd\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+E:\GitLab\wrap\LmsBackEnd\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+E:\GitLab\wrap\LmsBackEnd\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\GitLab\wrap\LmsBackEnd\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+E:\GitLab\wrap\LmsBackEnd\bin\Debug\net5.0\Microsoft.OpenApi.dll
+E:\GitLab\wrap\LmsBackEnd\bin\Debug\net5.0\Newtonsoft.Json.dll
+E:\GitLab\wrap\LmsBackEnd\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+E:\GitLab\wrap\LmsBackEnd\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+E:\GitLab\wrap\LmsBackEnd\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+E:\GitLab\wrap\LmsBackEnd\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+E:\GitLab\wrap\LmsBackEnd\bin\Debug\net5.0\System.Data.SqlClient.dll
+E:\GitLab\wrap\LmsBackEnd\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+E:\GitLab\wrap\LmsBackEnd\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+E:\GitLab\wrap\LmsBackEnd\bin\Debug\net5.0\System.Runtime.Caching.dll
+E:\GitLab\wrap\LmsBackEnd\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+E:\GitLab\wrap\LmsBackEnd\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\GitLab\wrap\LmsBackEnd\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\GitLab\wrap\LmsBackEnd\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+E:\GitLab\wrap\LmsBackEnd\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+E:\GitLab\wrap\LmsBackEnd\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\GitLab\wrap\LmsBackEnd\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+E:\GitLab\wrap\LmsBackEnd\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\GitLab\wrap\LmsBackEnd\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+E:\GitLab\wrap\LmsBackEnd\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+E:\GitLab\wrap\LmsBackEnd\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+E:\GitLab\wrap\LmsBackEnd\bin\Debug\net5.0\runtimes\win-arm64\native\sni.dll
+E:\GitLab\wrap\LmsBackEnd\bin\Debug\net5.0\runtimes\win-x64\native\sni.dll
+E:\GitLab\wrap\LmsBackEnd\bin\Debug\net5.0\runtimes\win-x86\native\sni.dll
+E:\GitLab\wrap\LmsBackEnd\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+E:\GitLab\wrap\LmsBackEnd\bin\Debug\net5.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+E:\GitLab\wrap\LmsBackEnd\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+E:\GitLab\wrap\LmsBackEnd\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+E:\GitLab\wrap\LmsBackEnd\obj\Debug\net5.0\LmsBackEnd.csproj.AssemblyReference.cache
+E:\GitLab\wrap\LmsBackEnd\obj\Debug\net5.0\LmsBackEnd.GeneratedMSBuildEditorConfig.editorconfig
+E:\GitLab\wrap\LmsBackEnd\obj\Debug\net5.0\LmsBackEnd.AssemblyInfoInputs.cache
+E:\GitLab\wrap\LmsBackEnd\obj\Debug\net5.0\LmsBackEnd.AssemblyInfo.cs
+E:\GitLab\wrap\LmsBackEnd\obj\Debug\net5.0\LmsBackEnd.csproj.CoreCompileInputs.cache
+E:\GitLab\wrap\LmsBackEnd\obj\Debug\net5.0\LmsBackEnd.MvcApplicationPartsAssemblyInfo.cs
+E:\GitLab\wrap\LmsBackEnd\obj\Debug\net5.0\LmsBackEnd.MvcApplicationPartsAssemblyInfo.cache
+E:\GitLab\wrap\LmsBackEnd\obj\Debug\net5.0\staticwebassets\LmsBackEnd.StaticWebAssets.Manifest.cache
+E:\GitLab\wrap\LmsBackEnd\obj\Debug\net5.0\staticwebassets\LmsBackEnd.StaticWebAssets.xml
+E:\GitLab\wrap\LmsBackEnd\obj\Debug\net5.0\scopedcss\bundle\LmsBackEnd.styles.css
+E:\GitLab\wrap\LmsBackEnd\obj\Debug\net5.0\LmsBackEnd.RazorTargetAssemblyInfo.cache
+E:\GitLab\wrap\LmsBackEnd\obj\Debug\net5.0\LmsBackEnd.csproj.CopyComplete
+E:\GitLab\wrap\LmsBackEnd\obj\Debug\net5.0\LmsBackEnd.dll
+E:\GitLab\wrap\LmsBackEnd\obj\Debug\net5.0\ref\LmsBackEnd.dll
+E:\GitLab\wrap\LmsBackEnd\obj\Debug\net5.0\LmsBackEnd.xml
+E:\GitLab\wrap\LmsBackEnd\obj\Debug\net5.0\LmsBackEnd.pdb
+E:\GitLab\wrap\LmsBackEnd\obj\Debug\net5.0\LmsBackEnd.genruntimeconfig.cache
+C:\Users\LenZ\Desktop\Project LMS\LmsBackEnd\LmsBackEnd\obj\Debug\net5.0\LmsBackEnd.csproj.AssemblyReference.cache
+C:\Users\LenZ\Desktop\Project LMS\LmsBackEnd\LmsBackEnd\obj\Debug\net5.0\LmsBackEnd.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LenZ\Desktop\Project LMS\LmsBackEnd\LmsBackEnd\obj\Debug\net5.0\LmsBackEnd.AssemblyInfoInputs.cache
+C:\Users\LenZ\Desktop\Project LMS\LmsBackEnd\LmsBackEnd\obj\Debug\net5.0\LmsBackEnd.AssemblyInfo.cs
+C:\Users\LenZ\Desktop\Project LMS\LmsBackEnd\LmsBackEnd\obj\Debug\net5.0\LmsBackEnd.csproj.CoreCompileInputs.cache
+C:\Users\LenZ\Desktop\Project LMS\LmsBackEnd\LmsBackEnd\obj\Debug\net5.0\LmsBackEnd.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\LenZ\Desktop\Project LMS\LmsBackEnd\LmsBackEnd\obj\Debug\net5.0\LmsBackEnd.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\LenZ\Desktop\Project LMS\LmsBackEnd\LmsBackEnd\obj\Debug\net5.0\LmsBackEnd.dll
+C:\Users\LenZ\Desktop\Project LMS\LmsBackEnd\LmsBackEnd\obj\Debug\net5.0\ref\LmsBackEnd.dll
+C:\Users\LenZ\Desktop\Project LMS\LmsBackEnd\LmsBackEnd\obj\Debug\net5.0\LmsBackEnd.xml
+C:\Users\LenZ\Desktop\Project LMS\LmsBackEnd\LmsBackEnd\obj\Debug\net5.0\LmsBackEnd.pdb
+C:\Users\LenZ\Desktop\Project LMS\LmsBackEnd\LmsBackEnd\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\LenZ\Desktop\Project LMS\LmsBackEnd\LmsBackEnd\bin\Debug\net5.0\appsettings.json
+C:\Users\LenZ\Desktop\Project LMS\LmsBackEnd\LmsBackEnd\bin\Debug\net5.0\LmsBackEnd.exe
+C:\Users\LenZ\Desktop\Project LMS\LmsBackEnd\LmsBackEnd\bin\Debug\net5.0\LmsBackEnd.deps.json
+C:\Users\LenZ\Desktop\Project LMS\LmsBackEnd\LmsBackEnd\bin\Debug\net5.0\LmsBackEnd.runtimeconfig.json
+C:\Users\LenZ\Desktop\Project LMS\LmsBackEnd\LmsBackEnd\bin\Debug\net5.0\LmsBackEnd.runtimeconfig.dev.json
+C:\Users\LenZ\Desktop\Project LMS\LmsBackEnd\LmsBackEnd\bin\Debug\net5.0\LmsBackEnd.dll
+C:\Users\LenZ\Desktop\Project LMS\LmsBackEnd\LmsBackEnd\bin\Debug\net5.0\ref\LmsBackEnd.dll
+C:\Users\LenZ\Desktop\Project LMS\LmsBackEnd\LmsBackEnd\bin\Debug\net5.0\LmsBackEnd.pdb
+C:\Users\LenZ\Desktop\Project LMS\LmsBackEnd\LmsBackEnd\bin\Debug\net5.0\LmsBackEnd.xml
+C:\Users\LenZ\Desktop\Project LMS\LmsBackEnd\LmsBackEnd\bin\Debug\net5.0\AutoMapper.dll
+C:\Users\LenZ\Desktop\Project LMS\LmsBackEnd\LmsBackEnd\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\LenZ\Desktop\Project LMS\LmsBackEnd\LmsBackEnd\bin\Debug\net5.0\Humanizer.dll
+C:\Users\LenZ\Desktop\Project LMS\LmsBackEnd\LmsBackEnd\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+C:\Users\LenZ\Desktop\Project LMS\LmsBackEnd\LmsBackEnd\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\LenZ\Desktop\Project LMS\LmsBackEnd\LmsBackEnd\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\LenZ\Desktop\Project LMS\LmsBackEnd\LmsBackEnd\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\LenZ\Desktop\Project LMS\LmsBackEnd\LmsBackEnd\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\LenZ\Desktop\Project LMS\LmsBackEnd\LmsBackEnd\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\LenZ\Desktop\Project LMS\LmsBackEnd\LmsBackEnd\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\LenZ\Desktop\Project LMS\LmsBackEnd\LmsBackEnd\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+C:\Users\LenZ\Desktop\Project LMS\LmsBackEnd\LmsBackEnd\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\LenZ\Desktop\Project LMS\LmsBackEnd\LmsBackEnd\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\LenZ\Desktop\Project LMS\LmsBackEnd\LmsBackEnd\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\LenZ\Desktop\Project LMS\LmsBackEnd\LmsBackEnd\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\LenZ\Desktop\Project LMS\LmsBackEnd\LmsBackEnd\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\LenZ\Desktop\Project LMS\LmsBackEnd\LmsBackEnd\bin\Debug\net5.0\Microsoft.OpenApi.dll
+C:\Users\LenZ\Desktop\Project LMS\LmsBackEnd\LmsBackEnd\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\LenZ\Desktop\Project LMS\LmsBackEnd\LmsBackEnd\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\LenZ\Desktop\Project LMS\LmsBackEnd\LmsBackEnd\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\LenZ\Desktop\Project LMS\LmsBackEnd\LmsBackEnd\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\LenZ\Desktop\Project LMS\LmsBackEnd\LmsBackEnd\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+C:\Users\LenZ\Desktop\Project LMS\LmsBackEnd\LmsBackEnd\bin\Debug\net5.0\System.Data.SqlClient.dll
+C:\Users\LenZ\Desktop\Project LMS\LmsBackEnd\LmsBackEnd\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\LenZ\Desktop\Project LMS\LmsBackEnd\LmsBackEnd\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\LenZ\Desktop\Project LMS\LmsBackEnd\LmsBackEnd\bin\Debug\net5.0\System.Runtime.Caching.dll
+C:\Users\LenZ\Desktop\Project LMS\LmsBackEnd\LmsBackEnd\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\LenZ\Desktop\Project LMS\LmsBackEnd\LmsBackEnd\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\LenZ\Desktop\Project LMS\LmsBackEnd\LmsBackEnd\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\LenZ\Desktop\Project LMS\LmsBackEnd\LmsBackEnd\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\LenZ\Desktop\Project LMS\LmsBackEnd\LmsBackEnd\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\LenZ\Desktop\Project LMS\LmsBackEnd\LmsBackEnd\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\LenZ\Desktop\Project LMS\LmsBackEnd\LmsBackEnd\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\LenZ\Desktop\Project LMS\LmsBackEnd\LmsBackEnd\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\LenZ\Desktop\Project LMS\LmsBackEnd\LmsBackEnd\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\LenZ\Desktop\Project LMS\LmsBackEnd\LmsBackEnd\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\LenZ\Desktop\Project LMS\LmsBackEnd\LmsBackEnd\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\LenZ\Desktop\Project LMS\LmsBackEnd\LmsBackEnd\bin\Debug\net5.0\runtimes\win-arm64\native\sni.dll
+C:\Users\LenZ\Desktop\Project LMS\LmsBackEnd\LmsBackEnd\bin\Debug\net5.0\runtimes\win-x64\native\sni.dll
+C:\Users\LenZ\Desktop\Project LMS\LmsBackEnd\LmsBackEnd\bin\Debug\net5.0\runtimes\win-x86\native\sni.dll
+C:\Users\LenZ\Desktop\Project LMS\LmsBackEnd\LmsBackEnd\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\LenZ\Desktop\Project LMS\LmsBackEnd\LmsBackEnd\bin\Debug\net5.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\LenZ\Desktop\Project LMS\LmsBackEnd\LmsBackEnd\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\LenZ\Desktop\Project LMS\LmsBackEnd\LmsBackEnd\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\LenZ\Desktop\Project LMS\LmsBackEnd\LmsBackEnd\obj\Debug\net5.0\staticwebassets\LmsBackEnd.StaticWebAssets.Manifest.cache
+C:\Users\LenZ\Desktop\Project LMS\LmsBackEnd\LmsBackEnd\obj\Debug\net5.0\staticwebassets\LmsBackEnd.StaticWebAssets.xml
+C:\Users\LenZ\Desktop\Project LMS\LmsBackEnd\LmsBackEnd\obj\Debug\net5.0\scopedcss\bundle\LmsBackEnd.styles.css
+C:\Users\LenZ\Desktop\Project LMS\LmsBackEnd\LmsBackEnd\obj\Debug\net5.0\LmsBackEnd.RazorTargetAssemblyInfo.cache
+C:\Users\LenZ\Desktop\Project LMS\LmsBackEnd\LmsBackEnd\obj\Debug\net5.0\LmsBackEnd.csproj.CopyComplete
+C:\Users\LenZ\Desktop\Project LMS\LmsBackEnd\LmsBackEnd\obj\Debug\net5.0\LmsBackEnd.genruntimeconfig.cache
+E:\GitLab\wrap02\LmsBackEnd\bin\Debug\net5.0\appsettings.Development.json
+E:\GitLab\wrap02\LmsBackEnd\bin\Debug\net5.0\appsettings.json
+E:\GitLab\wrap02\LmsBackEnd\bin\Debug\net5.0\LmsBackEnd.exe
+E:\GitLab\wrap02\LmsBackEnd\bin\Debug\net5.0\LmsBackEnd.deps.json
+E:\GitLab\wrap02\LmsBackEnd\bin\Debug\net5.0\LmsBackEnd.runtimeconfig.json
+E:\GitLab\wrap02\LmsBackEnd\bin\Debug\net5.0\LmsBackEnd.runtimeconfig.dev.json
+E:\GitLab\wrap02\LmsBackEnd\bin\Debug\net5.0\LmsBackEnd.dll
+E:\GitLab\wrap02\LmsBackEnd\bin\Debug\net5.0\ref\LmsBackEnd.dll
+E:\GitLab\wrap02\LmsBackEnd\bin\Debug\net5.0\LmsBackEnd.pdb
+E:\GitLab\wrap02\LmsBackEnd\bin\Debug\net5.0\LmsBackEnd.xml
+E:\GitLab\wrap02\LmsBackEnd\bin\Debug\net5.0\AutoMapper.dll
+E:\GitLab\wrap02\LmsBackEnd\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+E:\GitLab\wrap02\LmsBackEnd\bin\Debug\net5.0\Humanizer.dll
+E:\GitLab\wrap02\LmsBackEnd\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+E:\GitLab\wrap02\LmsBackEnd\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+E:\GitLab\wrap02\LmsBackEnd\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\GitLab\wrap02\LmsBackEnd\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+E:\GitLab\wrap02\LmsBackEnd\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+E:\GitLab\wrap02\LmsBackEnd\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+E:\GitLab\wrap02\LmsBackEnd\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+E:\GitLab\wrap02\LmsBackEnd\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+E:\GitLab\wrap02\LmsBackEnd\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\GitLab\wrap02\LmsBackEnd\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+E:\GitLab\wrap02\LmsBackEnd\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+E:\GitLab\wrap02\LmsBackEnd\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\GitLab\wrap02\LmsBackEnd\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+E:\GitLab\wrap02\LmsBackEnd\bin\Debug\net5.0\Microsoft.OpenApi.dll
+E:\GitLab\wrap02\LmsBackEnd\bin\Debug\net5.0\Newtonsoft.Json.dll
+E:\GitLab\wrap02\LmsBackEnd\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+E:\GitLab\wrap02\LmsBackEnd\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+E:\GitLab\wrap02\LmsBackEnd\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+E:\GitLab\wrap02\LmsBackEnd\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+E:\GitLab\wrap02\LmsBackEnd\bin\Debug\net5.0\System.Data.SqlClient.dll
+E:\GitLab\wrap02\LmsBackEnd\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+E:\GitLab\wrap02\LmsBackEnd\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+E:\GitLab\wrap02\LmsBackEnd\bin\Debug\net5.0\System.Runtime.Caching.dll
+E:\GitLab\wrap02\LmsBackEnd\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+E:\GitLab\wrap02\LmsBackEnd\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\GitLab\wrap02\LmsBackEnd\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\GitLab\wrap02\LmsBackEnd\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+E:\GitLab\wrap02\LmsBackEnd\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+E:\GitLab\wrap02\LmsBackEnd\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\GitLab\wrap02\LmsBackEnd\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+E:\GitLab\wrap02\LmsBackEnd\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\GitLab\wrap02\LmsBackEnd\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+E:\GitLab\wrap02\LmsBackEnd\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+E:\GitLab\wrap02\LmsBackEnd\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+E:\GitLab\wrap02\LmsBackEnd\bin\Debug\net5.0\runtimes\win-arm64\native\sni.dll
+E:\GitLab\wrap02\LmsBackEnd\bin\Debug\net5.0\runtimes\win-x64\native\sni.dll
+E:\GitLab\wrap02\LmsBackEnd\bin\Debug\net5.0\runtimes\win-x86\native\sni.dll
+E:\GitLab\wrap02\LmsBackEnd\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+E:\GitLab\wrap02\LmsBackEnd\bin\Debug\net5.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+E:\GitLab\wrap02\LmsBackEnd\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+E:\GitLab\wrap02\LmsBackEnd\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+E:\GitLab\wrap02\LmsBackEnd\obj\Debug\net5.0\LmsBackEnd.csproj.AssemblyReference.cache
+E:\GitLab\wrap02\LmsBackEnd\obj\Debug\net5.0\LmsBackEnd.GeneratedMSBuildEditorConfig.editorconfig
+E:\GitLab\wrap02\LmsBackEnd\obj\Debug\net5.0\LmsBackEnd.AssemblyInfoInputs.cache
+E:\GitLab\wrap02\LmsBackEnd\obj\Debug\net5.0\LmsBackEnd.AssemblyInfo.cs
+E:\GitLab\wrap02\LmsBackEnd\obj\Debug\net5.0\LmsBackEnd.csproj.CoreCompileInputs.cache
+E:\GitLab\wrap02\LmsBackEnd\obj\Debug\net5.0\LmsBackEnd.MvcApplicationPartsAssemblyInfo.cs
+E:\GitLab\wrap02\LmsBackEnd\obj\Debug\net5.0\LmsBackEnd.MvcApplicationPartsAssemblyInfo.cache
+E:\GitLab\wrap02\LmsBackEnd\obj\Debug\net5.0\staticwebassets\LmsBackEnd.StaticWebAssets.Manifest.cache
+E:\GitLab\wrap02\LmsBackEnd\obj\Debug\net5.0\staticwebassets\LmsBackEnd.StaticWebAssets.xml
+E:\GitLab\wrap02\LmsBackEnd\obj\Debug\net5.0\scopedcss\bundle\LmsBackEnd.styles.css
+E:\GitLab\wrap02\LmsBackEnd\obj\Debug\net5.0\LmsBackEnd.RazorTargetAssemblyInfo.cache
+E:\GitLab\wrap02\LmsBackEnd\obj\Debug\net5.0\LmsBackEnd.csproj.CopyComplete
+E:\GitLab\wrap02\LmsBackEnd\obj\Debug\net5.0\LmsBackEnd.dll
+E:\GitLab\wrap02\LmsBackEnd\obj\Debug\net5.0\ref\LmsBackEnd.dll
+E:\GitLab\wrap02\LmsBackEnd\obj\Debug\net5.0\LmsBackEnd.xml
+E:\GitLab\wrap02\LmsBackEnd\obj\Debug\net5.0\LmsBackEnd.pdb
+E:\GitLab\wrap02\LmsBackEnd\obj\Debug\net5.0\LmsBackEnd.genruntimeconfig.cache
+E:\GitLab\wrap03\LmsBackEnd\bin\Debug\net5.0\appsettings.Development.json
+E:\GitLab\wrap03\LmsBackEnd\bin\Debug\net5.0\appsettings.json
+E:\GitLab\wrap03\LmsBackEnd\bin\Debug\net5.0\LmsBackEnd.exe
+E:\GitLab\wrap03\LmsBackEnd\bin\Debug\net5.0\LmsBackEnd.deps.json
+E:\GitLab\wrap03\LmsBackEnd\bin\Debug\net5.0\LmsBackEnd.runtimeconfig.json
+E:\GitLab\wrap03\LmsBackEnd\bin\Debug\net5.0\LmsBackEnd.runtimeconfig.dev.json
+E:\GitLab\wrap03\LmsBackEnd\bin\Debug\net5.0\LmsBackEnd.dll
+E:\GitLab\wrap03\LmsBackEnd\bin\Debug\net5.0\ref\LmsBackEnd.dll
+E:\GitLab\wrap03\LmsBackEnd\bin\Debug\net5.0\LmsBackEnd.pdb
+E:\GitLab\wrap03\LmsBackEnd\bin\Debug\net5.0\LmsBackEnd.xml
+E:\GitLab\wrap03\LmsBackEnd\bin\Debug\net5.0\AutoMapper.dll
+E:\GitLab\wrap03\LmsBackEnd\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+E:\GitLab\wrap03\LmsBackEnd\bin\Debug\net5.0\Humanizer.dll
+E:\GitLab\wrap03\LmsBackEnd\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+E:\GitLab\wrap03\LmsBackEnd\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+E:\GitLab\wrap03\LmsBackEnd\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\GitLab\wrap03\LmsBackEnd\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+E:\GitLab\wrap03\LmsBackEnd\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+E:\GitLab\wrap03\LmsBackEnd\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+E:\GitLab\wrap03\LmsBackEnd\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+E:\GitLab\wrap03\LmsBackEnd\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+E:\GitLab\wrap03\LmsBackEnd\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\GitLab\wrap03\LmsBackEnd\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+E:\GitLab\wrap03\LmsBackEnd\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+E:\GitLab\wrap03\LmsBackEnd\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\GitLab\wrap03\LmsBackEnd\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+E:\GitLab\wrap03\LmsBackEnd\bin\Debug\net5.0\Microsoft.OpenApi.dll
+E:\GitLab\wrap03\LmsBackEnd\bin\Debug\net5.0\Newtonsoft.Json.dll
+E:\GitLab\wrap03\LmsBackEnd\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+E:\GitLab\wrap03\LmsBackEnd\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+E:\GitLab\wrap03\LmsBackEnd\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+E:\GitLab\wrap03\LmsBackEnd\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+E:\GitLab\wrap03\LmsBackEnd\bin\Debug\net5.0\System.Data.SqlClient.dll
+E:\GitLab\wrap03\LmsBackEnd\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+E:\GitLab\wrap03\LmsBackEnd\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+E:\GitLab\wrap03\LmsBackEnd\bin\Debug\net5.0\System.Runtime.Caching.dll
+E:\GitLab\wrap03\LmsBackEnd\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+E:\GitLab\wrap03\LmsBackEnd\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\GitLab\wrap03\LmsBackEnd\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\GitLab\wrap03\LmsBackEnd\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+E:\GitLab\wrap03\LmsBackEnd\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+E:\GitLab\wrap03\LmsBackEnd\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\GitLab\wrap03\LmsBackEnd\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+E:\GitLab\wrap03\LmsBackEnd\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\GitLab\wrap03\LmsBackEnd\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+E:\GitLab\wrap03\LmsBackEnd\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+E:\GitLab\wrap03\LmsBackEnd\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+E:\GitLab\wrap03\LmsBackEnd\bin\Debug\net5.0\runtimes\win-arm64\native\sni.dll
+E:\GitLab\wrap03\LmsBackEnd\bin\Debug\net5.0\runtimes\win-x64\native\sni.dll
+E:\GitLab\wrap03\LmsBackEnd\bin\Debug\net5.0\runtimes\win-x86\native\sni.dll
+E:\GitLab\wrap03\LmsBackEnd\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+E:\GitLab\wrap03\LmsBackEnd\bin\Debug\net5.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+E:\GitLab\wrap03\LmsBackEnd\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+E:\GitLab\wrap03\LmsBackEnd\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+E:\GitLab\wrap03\LmsBackEnd\obj\Debug\net5.0\LmsBackEnd.csproj.AssemblyReference.cache
+E:\GitLab\wrap03\LmsBackEnd\obj\Debug\net5.0\LmsBackEnd.GeneratedMSBuildEditorConfig.editorconfig
+E:\GitLab\wrap03\LmsBackEnd\obj\Debug\net5.0\LmsBackEnd.AssemblyInfoInputs.cache
+E:\GitLab\wrap03\LmsBackEnd\obj\Debug\net5.0\LmsBackEnd.AssemblyInfo.cs
+E:\GitLab\wrap03\LmsBackEnd\obj\Debug\net5.0\LmsBackEnd.csproj.CoreCompileInputs.cache
+E:\GitLab\wrap03\LmsBackEnd\obj\Debug\net5.0\LmsBackEnd.MvcApplicationPartsAssemblyInfo.cs
+E:\GitLab\wrap03\LmsBackEnd\obj\Debug\net5.0\LmsBackEnd.MvcApplicationPartsAssemblyInfo.cache
+E:\GitLab\wrap03\LmsBackEnd\obj\Debug\net5.0\staticwebassets\LmsBackEnd.StaticWebAssets.Manifest.cache
+E:\GitLab\wrap03\LmsBackEnd\obj\Debug\net5.0\staticwebassets\LmsBackEnd.StaticWebAssets.xml
+E:\GitLab\wrap03\LmsBackEnd\obj\Debug\net5.0\scopedcss\bundle\LmsBackEnd.styles.css
+E:\GitLab\wrap03\LmsBackEnd\obj\Debug\net5.0\LmsBackEnd.RazorTargetAssemblyInfo.cache
+E:\GitLab\wrap03\LmsBackEnd\obj\Debug\net5.0\LmsBackEnd.csproj.CopyComplete
+E:\GitLab\wrap03\LmsBackEnd\obj\Debug\net5.0\LmsBackEnd.dll
+E:\GitLab\wrap03\LmsBackEnd\obj\Debug\net5.0\ref\LmsBackEnd.dll
+E:\GitLab\wrap03\LmsBackEnd\obj\Debug\net5.0\LmsBackEnd.xml
+E:\GitLab\wrap03\LmsBackEnd\obj\Debug\net5.0\LmsBackEnd.pdb
+E:\GitLab\wrap03\LmsBackEnd\obj\Debug\net5.0\LmsBackEnd.genruntimeconfig.cache
+E:\GitLab\wrap03\LmsBackEnd\bin\Debug\net5.0\Dapper.dll
+C:\Users\LenZ\Desktop\Project LMS\LmsBackEnd\LmsBackEnd\bin\Debug\net5.0\Dapper.dll
+E:\GitLab\LMS\lms\LmsBackEnd\bin\Debug\net5.0\Dapper.dll
+D:\LMS\backend\lms\LmsBackEnd\bin\Debug\net5.0\appsettings.Development.json
+D:\LMS\backend\lms\LmsBackEnd\bin\Debug\net5.0\appsettings.json
+D:\LMS\backend\lms\LmsBackEnd\bin\Debug\net5.0\LmsBackEnd.exe
+D:\LMS\backend\lms\LmsBackEnd\bin\Debug\net5.0\LmsBackEnd.deps.json
+D:\LMS\backend\lms\LmsBackEnd\bin\Debug\net5.0\LmsBackEnd.runtimeconfig.json
+D:\LMS\backend\lms\LmsBackEnd\bin\Debug\net5.0\LmsBackEnd.runtimeconfig.dev.json
+D:\LMS\backend\lms\LmsBackEnd\bin\Debug\net5.0\LmsBackEnd.dll
+D:\LMS\backend\lms\LmsBackEnd\bin\Debug\net5.0\ref\LmsBackEnd.dll
+D:\LMS\backend\lms\LmsBackEnd\bin\Debug\net5.0\LmsBackEnd.pdb
+D:\LMS\backend\lms\LmsBackEnd\bin\Debug\net5.0\LmsBackEnd.xml
+D:\LMS\backend\lms\LmsBackEnd\bin\Debug\net5.0\AutoMapper.dll
+D:\LMS\backend\lms\LmsBackEnd\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\LMS\backend\lms\LmsBackEnd\bin\Debug\net5.0\Dapper.dll
+D:\LMS\backend\lms\LmsBackEnd\bin\Debug\net5.0\Humanizer.dll
+D:\LMS\backend\lms\LmsBackEnd\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+D:\LMS\backend\lms\LmsBackEnd\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+D:\LMS\backend\lms\LmsBackEnd\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\LMS\backend\lms\LmsBackEnd\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\LMS\backend\lms\LmsBackEnd\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\LMS\backend\lms\LmsBackEnd\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\LMS\backend\lms\LmsBackEnd\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+D:\LMS\backend\lms\LmsBackEnd\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+D:\LMS\backend\lms\LmsBackEnd\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\LMS\backend\lms\LmsBackEnd\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+D:\LMS\backend\lms\LmsBackEnd\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+D:\LMS\backend\lms\LmsBackEnd\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\LMS\backend\lms\LmsBackEnd\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+D:\LMS\backend\lms\LmsBackEnd\bin\Debug\net5.0\Microsoft.OpenApi.dll
+D:\LMS\backend\lms\LmsBackEnd\bin\Debug\net5.0\Newtonsoft.Json.dll
+D:\LMS\backend\lms\LmsBackEnd\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\LMS\backend\lms\LmsBackEnd\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\LMS\backend\lms\LmsBackEnd\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\LMS\backend\lms\LmsBackEnd\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+D:\LMS\backend\lms\LmsBackEnd\bin\Debug\net5.0\System.Data.SqlClient.dll
+D:\LMS\backend\lms\LmsBackEnd\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+D:\LMS\backend\lms\LmsBackEnd\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+D:\LMS\backend\lms\LmsBackEnd\bin\Debug\net5.0\System.Runtime.Caching.dll
+D:\LMS\backend\lms\LmsBackEnd\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+D:\LMS\backend\lms\LmsBackEnd\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\LMS\backend\lms\LmsBackEnd\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\LMS\backend\lms\LmsBackEnd\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\LMS\backend\lms\LmsBackEnd\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\LMS\backend\lms\LmsBackEnd\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\LMS\backend\lms\LmsBackEnd\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\LMS\backend\lms\LmsBackEnd\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\LMS\backend\lms\LmsBackEnd\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\LMS\backend\lms\LmsBackEnd\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\LMS\backend\lms\LmsBackEnd\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\LMS\backend\lms\LmsBackEnd\bin\Debug\net5.0\runtimes\win-arm64\native\sni.dll
+D:\LMS\backend\lms\LmsBackEnd\bin\Debug\net5.0\runtimes\win-x64\native\sni.dll
+D:\LMS\backend\lms\LmsBackEnd\bin\Debug\net5.0\runtimes\win-x86\native\sni.dll
+D:\LMS\backend\lms\LmsBackEnd\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\LMS\backend\lms\LmsBackEnd\bin\Debug\net5.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\LMS\backend\lms\LmsBackEnd\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\LMS\backend\lms\LmsBackEnd\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\LMS\backend\lms\LmsBackEnd\obj\Debug\net5.0\LmsBackEnd.csprojAssemblyReference.cache
+D:\LMS\backend\lms\LmsBackEnd\obj\Debug\net5.0\LmsBackEnd.GeneratedMSBuildEditorConfig.editorconfig
+D:\LMS\backend\lms\LmsBackEnd\obj\Debug\net5.0\LmsBackEnd.AssemblyInfoInputs.cache
+D:\LMS\backend\lms\LmsBackEnd\obj\Debug\net5.0\LmsBackEnd.AssemblyInfo.cs
+D:\LMS\backend\lms\LmsBackEnd\obj\Debug\net5.0\LmsBackEnd.csproj.CoreCompileInputs.cache
+D:\LMS\backend\lms\LmsBackEnd\obj\Debug\net5.0\LmsBackEnd.MvcApplicationPartsAssemblyInfo.cs
+D:\LMS\backend\lms\LmsBackEnd\obj\Debug\net5.0\LmsBackEnd.MvcApplicationPartsAssemblyInfo.cache
+D:\LMS\backend\lms\LmsBackEnd\obj\Debug\net5.0\staticwebassets\LmsBackEnd.StaticWebAssets.Manifest.cache
+D:\LMS\backend\lms\LmsBackEnd\obj\Debug\net5.0\staticwebassets\LmsBackEnd.StaticWebAssets.xml
+D:\LMS\backend\lms\LmsBackEnd\obj\Debug\net5.0\scopedcss\bundle\LmsBackEnd.styles.css
+D:\LMS\backend\lms\LmsBackEnd\obj\Debug\net5.0\LmsBackEnd.RazorTargetAssemblyInfo.cache
+D:\LMS\backend\lms\LmsBackEnd\obj\Debug\net5.0\LmsBackEnd.csproj.CopyComplete
+D:\LMS\backend\lms\LmsBackEnd\obj\Debug\net5.0\LmsBackEnd.dll
+D:\LMS\backend\lms\LmsBackEnd\obj\Debug\net5.0\ref\LmsBackEnd.dll
+D:\LMS\backend\lms\LmsBackEnd\obj\Debug\net5.0\LmsBackEnd.xml
+D:\LMS\backend\lms\LmsBackEnd\obj\Debug\net5.0\LmsBackEnd.pdb
+D:\LMS\backend\lms\LmsBackEnd\obj\Debug\net5.0\LmsBackEnd.genruntimeconfig.cache
+C:\Users\LenZ\Desktop\LmsBackEnd\LmsBackEnd\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\LenZ\Desktop\LmsBackEnd\LmsBackEnd\bin\Debug\net5.0\appsettings.json
+C:\Users\LenZ\Desktop\LmsBackEnd\LmsBackEnd\bin\Debug\net5.0\LmsBackEnd.exe
+C:\Users\LenZ\Desktop\LmsBackEnd\LmsBackEnd\bin\Debug\net5.0\LmsBackEnd.deps.json
+C:\Users\LenZ\Desktop\LmsBackEnd\LmsBackEnd\bin\Debug\net5.0\LmsBackEnd.runtimeconfig.json
+C:\Users\LenZ\Desktop\LmsBackEnd\LmsBackEnd\bin\Debug\net5.0\LmsBackEnd.runtimeconfig.dev.json
+C:\Users\LenZ\Desktop\LmsBackEnd\LmsBackEnd\bin\Debug\net5.0\LmsBackEnd.dll
+C:\Users\LenZ\Desktop\LmsBackEnd\LmsBackEnd\bin\Debug\net5.0\ref\LmsBackEnd.dll
+C:\Users\LenZ\Desktop\LmsBackEnd\LmsBackEnd\bin\Debug\net5.0\LmsBackEnd.pdb
+C:\Users\LenZ\Desktop\LmsBackEnd\LmsBackEnd\bin\Debug\net5.0\LmsBackEnd.xml
+C:\Users\LenZ\Desktop\LmsBackEnd\LmsBackEnd\bin\Debug\net5.0\AutoMapper.dll
+C:\Users\LenZ\Desktop\LmsBackEnd\LmsBackEnd\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\LenZ\Desktop\LmsBackEnd\LmsBackEnd\bin\Debug\net5.0\Dapper.dll
+C:\Users\LenZ\Desktop\LmsBackEnd\LmsBackEnd\bin\Debug\net5.0\Humanizer.dll
+C:\Users\LenZ\Desktop\LmsBackEnd\LmsBackEnd\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+C:\Users\LenZ\Desktop\LmsBackEnd\LmsBackEnd\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\LenZ\Desktop\LmsBackEnd\LmsBackEnd\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\LenZ\Desktop\LmsBackEnd\LmsBackEnd\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\LenZ\Desktop\LmsBackEnd\LmsBackEnd\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\LenZ\Desktop\LmsBackEnd\LmsBackEnd\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\LenZ\Desktop\LmsBackEnd\LmsBackEnd\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\LenZ\Desktop\LmsBackEnd\LmsBackEnd\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+C:\Users\LenZ\Desktop\LmsBackEnd\LmsBackEnd\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\LenZ\Desktop\LmsBackEnd\LmsBackEnd\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\LenZ\Desktop\LmsBackEnd\LmsBackEnd\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\LenZ\Desktop\LmsBackEnd\LmsBackEnd\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\LenZ\Desktop\LmsBackEnd\LmsBackEnd\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\LenZ\Desktop\LmsBackEnd\LmsBackEnd\bin\Debug\net5.0\Microsoft.OpenApi.dll
+C:\Users\LenZ\Desktop\LmsBackEnd\LmsBackEnd\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\LenZ\Desktop\LmsBackEnd\LmsBackEnd\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\LenZ\Desktop\LmsBackEnd\LmsBackEnd\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\LenZ\Desktop\LmsBackEnd\LmsBackEnd\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\LenZ\Desktop\LmsBackEnd\LmsBackEnd\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+C:\Users\LenZ\Desktop\LmsBackEnd\LmsBackEnd\bin\Debug\net5.0\System.Data.SqlClient.dll
+C:\Users\LenZ\Desktop\LmsBackEnd\LmsBackEnd\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\LenZ\Desktop\LmsBackEnd\LmsBackEnd\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\LenZ\Desktop\LmsBackEnd\LmsBackEnd\bin\Debug\net5.0\System.Runtime.Caching.dll
+C:\Users\LenZ\Desktop\LmsBackEnd\LmsBackEnd\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\LenZ\Desktop\LmsBackEnd\LmsBackEnd\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\LenZ\Desktop\LmsBackEnd\LmsBackEnd\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\LenZ\Desktop\LmsBackEnd\LmsBackEnd\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\LenZ\Desktop\LmsBackEnd\LmsBackEnd\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\LenZ\Desktop\LmsBackEnd\LmsBackEnd\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\LenZ\Desktop\LmsBackEnd\LmsBackEnd\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\LenZ\Desktop\LmsBackEnd\LmsBackEnd\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\LenZ\Desktop\LmsBackEnd\LmsBackEnd\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\LenZ\Desktop\LmsBackEnd\LmsBackEnd\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\LenZ\Desktop\LmsBackEnd\LmsBackEnd\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\LenZ\Desktop\LmsBackEnd\LmsBackEnd\bin\Debug\net5.0\runtimes\win-arm64\native\sni.dll
+C:\Users\LenZ\Desktop\LmsBackEnd\LmsBackEnd\bin\Debug\net5.0\runtimes\win-x64\native\sni.dll
+C:\Users\LenZ\Desktop\LmsBackEnd\LmsBackEnd\bin\Debug\net5.0\runtimes\win-x86\native\sni.dll
+C:\Users\LenZ\Desktop\LmsBackEnd\LmsBackEnd\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\LenZ\Desktop\LmsBackEnd\LmsBackEnd\bin\Debug\net5.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\LenZ\Desktop\LmsBackEnd\LmsBackEnd\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\LenZ\Desktop\LmsBackEnd\LmsBackEnd\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\LenZ\Desktop\LmsBackEnd\LmsBackEnd\obj\Debug\net5.0\LmsBackEnd.csproj.AssemblyReference.cache
+C:\Users\LenZ\Desktop\LmsBackEnd\LmsBackEnd\obj\Debug\net5.0\LmsBackEnd.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LenZ\Desktop\LmsBackEnd\LmsBackEnd\obj\Debug\net5.0\LmsBackEnd.AssemblyInfoInputs.cache
+C:\Users\LenZ\Desktop\LmsBackEnd\LmsBackEnd\obj\Debug\net5.0\LmsBackEnd.AssemblyInfo.cs
+C:\Users\LenZ\Desktop\LmsBackEnd\LmsBackEnd\obj\Debug\net5.0\LmsBackEnd.csproj.CoreCompileInputs.cache
+C:\Users\LenZ\Desktop\LmsBackEnd\LmsBackEnd\obj\Debug\net5.0\LmsBackEnd.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\LenZ\Desktop\LmsBackEnd\LmsBackEnd\obj\Debug\net5.0\LmsBackEnd.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\LenZ\Desktop\LmsBackEnd\LmsBackEnd\obj\Debug\net5.0\staticwebassets\LmsBackEnd.StaticWebAssets.Manifest.cache
+C:\Users\LenZ\Desktop\LmsBackEnd\LmsBackEnd\obj\Debug\net5.0\staticwebassets\LmsBackEnd.StaticWebAssets.xml
+C:\Users\LenZ\Desktop\LmsBackEnd\LmsBackEnd\obj\Debug\net5.0\scopedcss\bundle\LmsBackEnd.styles.css
+C:\Users\LenZ\Desktop\LmsBackEnd\LmsBackEnd\obj\Debug\net5.0\LmsBackEnd.RazorTargetAssemblyInfo.cache
+C:\Users\LenZ\Desktop\LmsBackEnd\LmsBackEnd\obj\Debug\net5.0\LmsBackEnd.csproj.CopyComplete
+C:\Users\LenZ\Desktop\LmsBackEnd\LmsBackEnd\obj\Debug\net5.0\LmsBackEnd.dll
+C:\Users\LenZ\Desktop\LmsBackEnd\LmsBackEnd\obj\Debug\net5.0\ref\LmsBackEnd.dll
+C:\Users\LenZ\Desktop\LmsBackEnd\LmsBackEnd\obj\Debug\net5.0\LmsBackEnd.xml
+C:\Users\LenZ\Desktop\LmsBackEnd\LmsBackEnd\obj\Debug\net5.0\LmsBackEnd.pdb
+C:\Users\LenZ\Desktop\LmsBackEnd\LmsBackEnd\obj\Debug\net5.0\LmsBackEnd.genruntimeconfig.cache
+E:\GitLab\LmsBackEnd\bin\Debug\net5.0\appsettings.Development.json
+E:\GitLab\LmsBackEnd\bin\Debug\net5.0\appsettings.json
+E:\GitLab\LmsBackEnd\bin\Debug\net5.0\LmsBackEnd.exe
+E:\GitLab\LmsBackEnd\bin\Debug\net5.0\LmsBackEnd.deps.json
+E:\GitLab\LmsBackEnd\bin\Debug\net5.0\LmsBackEnd.runtimeconfig.json
+E:\GitLab\LmsBackEnd\bin\Debug\net5.0\LmsBackEnd.runtimeconfig.dev.json
+E:\GitLab\LmsBackEnd\bin\Debug\net5.0\LmsBackEnd.dll
+E:\GitLab\LmsBackEnd\bin\Debug\net5.0\ref\LmsBackEnd.dll
+E:\GitLab\LmsBackEnd\bin\Debug\net5.0\LmsBackEnd.pdb
+E:\GitLab\LmsBackEnd\bin\Debug\net5.0\LmsBackEnd.xml
+E:\GitLab\LmsBackEnd\bin\Debug\net5.0\AutoMapper.dll
+E:\GitLab\LmsBackEnd\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+E:\GitLab\LmsBackEnd\bin\Debug\net5.0\Dapper.dll
+E:\GitLab\LmsBackEnd\bin\Debug\net5.0\Humanizer.dll
+E:\GitLab\LmsBackEnd\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+E:\GitLab\LmsBackEnd\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+E:\GitLab\LmsBackEnd\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\GitLab\LmsBackEnd\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+E:\GitLab\LmsBackEnd\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+E:\GitLab\LmsBackEnd\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+E:\GitLab\LmsBackEnd\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+E:\GitLab\LmsBackEnd\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+E:\GitLab\LmsBackEnd\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\GitLab\LmsBackEnd\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+E:\GitLab\LmsBackEnd\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+E:\GitLab\LmsBackEnd\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\GitLab\LmsBackEnd\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+E:\GitLab\LmsBackEnd\bin\Debug\net5.0\Microsoft.OpenApi.dll
+E:\GitLab\LmsBackEnd\bin\Debug\net5.0\Newtonsoft.Json.dll
+E:\GitLab\LmsBackEnd\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+E:\GitLab\LmsBackEnd\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+E:\GitLab\LmsBackEnd\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+E:\GitLab\LmsBackEnd\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+E:\GitLab\LmsBackEnd\bin\Debug\net5.0\System.Data.SqlClient.dll
+E:\GitLab\LmsBackEnd\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+E:\GitLab\LmsBackEnd\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+E:\GitLab\LmsBackEnd\bin\Debug\net5.0\System.Runtime.Caching.dll
+E:\GitLab\LmsBackEnd\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+E:\GitLab\LmsBackEnd\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\GitLab\LmsBackEnd\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\GitLab\LmsBackEnd\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+E:\GitLab\LmsBackEnd\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+E:\GitLab\LmsBackEnd\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\GitLab\LmsBackEnd\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+E:\GitLab\LmsBackEnd\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\GitLab\LmsBackEnd\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+E:\GitLab\LmsBackEnd\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+E:\GitLab\LmsBackEnd\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+E:\GitLab\LmsBackEnd\bin\Debug\net5.0\runtimes\win-arm64\native\sni.dll
+E:\GitLab\LmsBackEnd\bin\Debug\net5.0\runtimes\win-x64\native\sni.dll
+E:\GitLab\LmsBackEnd\bin\Debug\net5.0\runtimes\win-x86\native\sni.dll
+E:\GitLab\LmsBackEnd\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+E:\GitLab\LmsBackEnd\bin\Debug\net5.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+E:\GitLab\LmsBackEnd\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+E:\GitLab\LmsBackEnd\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+E:\GitLab\LmsBackEnd\obj\Debug\net5.0\LmsBackEnd.csproj.AssemblyReference.cache
+E:\GitLab\LmsBackEnd\obj\Debug\net5.0\LmsBackEnd.GeneratedMSBuildEditorConfig.editorconfig
+E:\GitLab\LmsBackEnd\obj\Debug\net5.0\LmsBackEnd.AssemblyInfoInputs.cache
+E:\GitLab\LmsBackEnd\obj\Debug\net5.0\LmsBackEnd.AssemblyInfo.cs
+E:\GitLab\LmsBackEnd\obj\Debug\net5.0\LmsBackEnd.csproj.CoreCompileInputs.cache
+E:\GitLab\LmsBackEnd\obj\Debug\net5.0\LmsBackEnd.MvcApplicationPartsAssemblyInfo.cs
+E:\GitLab\LmsBackEnd\obj\Debug\net5.0\LmsBackEnd.MvcApplicationPartsAssemblyInfo.cache
+E:\GitLab\LmsBackEnd\obj\Debug\net5.0\staticwebassets\LmsBackEnd.StaticWebAssets.Manifest.cache
+E:\GitLab\LmsBackEnd\obj\Debug\net5.0\staticwebassets\LmsBackEnd.StaticWebAssets.xml
+E:\GitLab\LmsBackEnd\obj\Debug\net5.0\scopedcss\bundle\LmsBackEnd.styles.css
+E:\GitLab\LmsBackEnd\obj\Debug\net5.0\LmsBackEnd.RazorTargetAssemblyInfo.cache
+E:\GitLab\LmsBackEnd\obj\Debug\net5.0\LmsBackEnd.csproj.CopyComplete
+E:\GitLab\LmsBackEnd\obj\Debug\net5.0\LmsBackEnd.dll
+E:\GitLab\LmsBackEnd\obj\Debug\net5.0\ref\LmsBackEnd.dll
+E:\GitLab\LmsBackEnd\obj\Debug\net5.0\LmsBackEnd.xml
+E:\GitLab\LmsBackEnd\obj\Debug\net5.0\LmsBackEnd.pdb
+E:\GitLab\LmsBackEnd\obj\Debug\net5.0\LmsBackEnd.genruntimeconfig.cache
+C:\Users\LenZ\Desktop\Project LMS\LmsBackEnd\LmsBackEnd\bin\Debug\net5.0\credentials.json
+C:\Users\LenZ\Desktop\Project LMS\LmsBackEnd\LmsBackEnd\bin\Debug\net5.0\Google.Apis.dll
+C:\Users\LenZ\Desktop\Project LMS\LmsBackEnd\LmsBackEnd\bin\Debug\net5.0\Google.Apis.Auth.PlatformServices.dll
+C:\Users\LenZ\Desktop\Project LMS\LmsBackEnd\LmsBackEnd\bin\Debug\net5.0\Google.Apis.Auth.dll
+C:\Users\LenZ\Desktop\Project LMS\LmsBackEnd\LmsBackEnd\bin\Debug\net5.0\Google.Apis.Core.dll
+C:\Users\LenZ\Desktop\Project LMS\LmsBackEnd\LmsBackEnd\bin\Debug\net5.0\Google.Apis.Drive.v3.dll
+E:\GitLab\LMS\lms\LmsBackEnd\bin\Debug\net5.0\credentials.json
+E:\GitLab\LMS\lms\LmsBackEnd\bin\Debug\net5.0\Google.Apis.dll
+E:\GitLab\LMS\lms\LmsBackEnd\bin\Debug\net5.0\Google.Apis.Auth.PlatformServices.dll
+E:\GitLab\LMS\lms\LmsBackEnd\bin\Debug\net5.0\Google.Apis.Auth.dll
+E:\GitLab\LMS\lms\LmsBackEnd\bin\Debug\net5.0\Google.Apis.Core.dll
+E:\GitLab\LMS\lms\LmsBackEnd\bin\Debug\net5.0\Google.Apis.Drive.v3.dll
+D:\LMS\backend\lms\LmsBackEnd\bin\Debug\net5.0\credentials.json
+D:\LMS\backend\lms\LmsBackEnd\bin\Debug\net5.0\Google.Apis.dll
+D:\LMS\backend\lms\LmsBackEnd\bin\Debug\net5.0\Google.Apis.Auth.PlatformServices.dll
+D:\LMS\backend\lms\LmsBackEnd\bin\Debug\net5.0\Google.Apis.Auth.dll
+D:\LMS\backend\lms\LmsBackEnd\bin\Debug\net5.0\Google.Apis.Core.dll
+D:\LMS\backend\lms\LmsBackEnd\bin\Debug\net5.0\Google.Apis.Drive.v3.dll
+E:\GitLab\CopyFromBE\wrap\LmsBackEnd\bin\Debug\net5.0\appsettings.Development.json
+E:\GitLab\CopyFromBE\wrap\LmsBackEnd\bin\Debug\net5.0\appsettings.json
+E:\GitLab\CopyFromBE\wrap\LmsBackEnd\bin\Debug\net5.0\credentials.json
+E:\GitLab\CopyFromBE\wrap\LmsBackEnd\bin\Debug\net5.0\LmsBackEnd.exe
+E:\GitLab\CopyFromBE\wrap\LmsBackEnd\bin\Debug\net5.0\LmsBackEnd.deps.json
+E:\GitLab\CopyFromBE\wrap\LmsBackEnd\bin\Debug\net5.0\LmsBackEnd.runtimeconfig.json
+E:\GitLab\CopyFromBE\wrap\LmsBackEnd\bin\Debug\net5.0\LmsBackEnd.runtimeconfig.dev.json
+E:\GitLab\CopyFromBE\wrap\LmsBackEnd\bin\Debug\net5.0\LmsBackEnd.dll
+E:\GitLab\CopyFromBE\wrap\LmsBackEnd\bin\Debug\net5.0\ref\LmsBackEnd.dll
+E:\GitLab\CopyFromBE\wrap\LmsBackEnd\bin\Debug\net5.0\LmsBackEnd.pdb
+E:\GitLab\CopyFromBE\wrap\LmsBackEnd\bin\Debug\net5.0\LmsBackEnd.xml
+E:\GitLab\CopyFromBE\wrap\LmsBackEnd\bin\Debug\net5.0\AutoMapper.dll
+E:\GitLab\CopyFromBE\wrap\LmsBackEnd\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+E:\GitLab\CopyFromBE\wrap\LmsBackEnd\bin\Debug\net5.0\Dapper.dll
+E:\GitLab\CopyFromBE\wrap\LmsBackEnd\bin\Debug\net5.0\Google.Apis.dll
+E:\GitLab\CopyFromBE\wrap\LmsBackEnd\bin\Debug\net5.0\Google.Apis.Auth.PlatformServices.dll
+E:\GitLab\CopyFromBE\wrap\LmsBackEnd\bin\Debug\net5.0\Google.Apis.Auth.dll
+E:\GitLab\CopyFromBE\wrap\LmsBackEnd\bin\Debug\net5.0\Google.Apis.Core.dll
+E:\GitLab\CopyFromBE\wrap\LmsBackEnd\bin\Debug\net5.0\Google.Apis.Drive.v3.dll
+E:\GitLab\CopyFromBE\wrap\LmsBackEnd\bin\Debug\net5.0\Humanizer.dll
+E:\GitLab\CopyFromBE\wrap\LmsBackEnd\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+E:\GitLab\CopyFromBE\wrap\LmsBackEnd\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+E:\GitLab\CopyFromBE\wrap\LmsBackEnd\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\GitLab\CopyFromBE\wrap\LmsBackEnd\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+E:\GitLab\CopyFromBE\wrap\LmsBackEnd\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+E:\GitLab\CopyFromBE\wrap\LmsBackEnd\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+E:\GitLab\CopyFromBE\wrap\LmsBackEnd\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+E:\GitLab\CopyFromBE\wrap\LmsBackEnd\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+E:\GitLab\CopyFromBE\wrap\LmsBackEnd\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\GitLab\CopyFromBE\wrap\LmsBackEnd\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+E:\GitLab\CopyFromBE\wrap\LmsBackEnd\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+E:\GitLab\CopyFromBE\wrap\LmsBackEnd\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\GitLab\CopyFromBE\wrap\LmsBackEnd\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+E:\GitLab\CopyFromBE\wrap\LmsBackEnd\bin\Debug\net5.0\Microsoft.OpenApi.dll
+E:\GitLab\CopyFromBE\wrap\LmsBackEnd\bin\Debug\net5.0\Newtonsoft.Json.dll
+E:\GitLab\CopyFromBE\wrap\LmsBackEnd\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+E:\GitLab\CopyFromBE\wrap\LmsBackEnd\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+E:\GitLab\CopyFromBE\wrap\LmsBackEnd\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+E:\GitLab\CopyFromBE\wrap\LmsBackEnd\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+E:\GitLab\CopyFromBE\wrap\LmsBackEnd\bin\Debug\net5.0\System.Data.SqlClient.dll
+E:\GitLab\CopyFromBE\wrap\LmsBackEnd\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+E:\GitLab\CopyFromBE\wrap\LmsBackEnd\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+E:\GitLab\CopyFromBE\wrap\LmsBackEnd\bin\Debug\net5.0\System.Runtime.Caching.dll
+E:\GitLab\CopyFromBE\wrap\LmsBackEnd\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+E:\GitLab\CopyFromBE\wrap\LmsBackEnd\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\GitLab\CopyFromBE\wrap\LmsBackEnd\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\GitLab\CopyFromBE\wrap\LmsBackEnd\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+E:\GitLab\CopyFromBE\wrap\LmsBackEnd\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+E:\GitLab\CopyFromBE\wrap\LmsBackEnd\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\GitLab\CopyFromBE\wrap\LmsBackEnd\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+E:\GitLab\CopyFromBE\wrap\LmsBackEnd\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\GitLab\CopyFromBE\wrap\LmsBackEnd\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+E:\GitLab\CopyFromBE\wrap\LmsBackEnd\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+E:\GitLab\CopyFromBE\wrap\LmsBackEnd\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+E:\GitLab\CopyFromBE\wrap\LmsBackEnd\bin\Debug\net5.0\runtimes\win-arm64\native\sni.dll
+E:\GitLab\CopyFromBE\wrap\LmsBackEnd\bin\Debug\net5.0\runtimes\win-x64\native\sni.dll
+E:\GitLab\CopyFromBE\wrap\LmsBackEnd\bin\Debug\net5.0\runtimes\win-x86\native\sni.dll
+E:\GitLab\CopyFromBE\wrap\LmsBackEnd\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+E:\GitLab\CopyFromBE\wrap\LmsBackEnd\bin\Debug\net5.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+E:\GitLab\CopyFromBE\wrap\LmsBackEnd\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+E:\GitLab\CopyFromBE\wrap\LmsBackEnd\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+E:\GitLab\CopyFromBE\wrap\LmsBackEnd\obj\Debug\net5.0\LmsBackEnd.csproj.AssemblyReference.cache
+E:\GitLab\CopyFromBE\wrap\LmsBackEnd\obj\Debug\net5.0\LmsBackEnd.GeneratedMSBuildEditorConfig.editorconfig
+E:\GitLab\CopyFromBE\wrap\LmsBackEnd\obj\Debug\net5.0\LmsBackEnd.AssemblyInfoInputs.cache
+E:\GitLab\CopyFromBE\wrap\LmsBackEnd\obj\Debug\net5.0\LmsBackEnd.AssemblyInfo.cs
+E:\GitLab\CopyFromBE\wrap\LmsBackEnd\obj\Debug\net5.0\LmsBackEnd.csproj.CoreCompileInputs.cache
+E:\GitLab\CopyFromBE\wrap\LmsBackEnd\obj\Debug\net5.0\LmsBackEnd.MvcApplicationPartsAssemblyInfo.cs
+E:\GitLab\CopyFromBE\wrap\LmsBackEnd\obj\Debug\net5.0\LmsBackEnd.MvcApplicationPartsAssemblyInfo.cache
+E:\GitLab\CopyFromBE\wrap\LmsBackEnd\obj\Debug\net5.0\staticwebassets\LmsBackEnd.StaticWebAssets.Manifest.cache
+E:\GitLab\CopyFromBE\wrap\LmsBackEnd\obj\Debug\net5.0\staticwebassets\LmsBackEnd.StaticWebAssets.xml
+E:\GitLab\CopyFromBE\wrap\LmsBackEnd\obj\Debug\net5.0\scopedcss\bundle\LmsBackEnd.styles.css
+E:\GitLab\CopyFromBE\wrap\LmsBackEnd\obj\Debug\net5.0\LmsBackEnd.RazorTargetAssemblyInfo.cache
+E:\GitLab\CopyFromBE\wrap\LmsBackEnd\obj\Debug\net5.0\LmsBackEnd.csproj.CopyComplete
+E:\GitLab\CopyFromBE\wrap\LmsBackEnd\obj\Debug\net5.0\LmsBackEnd.dll
+E:\GitLab\CopyFromBE\wrap\LmsBackEnd\obj\Debug\net5.0\ref\LmsBackEnd.dll
+E:\GitLab\CopyFromBE\wrap\LmsBackEnd\obj\Debug\net5.0\LmsBackEnd.xml
+E:\GitLab\CopyFromBE\wrap\LmsBackEnd\obj\Debug\net5.0\LmsBackEnd.pdb
+E:\GitLab\CopyFromBE\wrap\LmsBackEnd\obj\Debug\net5.0\LmsBackEnd.genruntimeconfig.cache
+E:\GitLab\Clone\lms\LmsBackEnd\obj\Debug\net5.0\LmsBackEnd.csproj.AssemblyReference.cache
+E:\GitLab\Clone\lms\LmsBackEnd\obj\Debug\net5.0\LmsBackEnd.GeneratedMSBuildEditorConfig.editorconfig
+E:\GitLab\Clone\lms\LmsBackEnd\obj\Debug\net5.0\LmsBackEnd.AssemblyInfoInputs.cache
+E:\GitLab\Clone\lms\LmsBackEnd\obj\Debug\net5.0\LmsBackEnd.AssemblyInfo.cs
+E:\GitLab\Clone\lms\LmsBackEnd\obj\Debug\net5.0\LmsBackEnd.csproj.CoreCompileInputs.cache
+E:\GitLab\Clone\lms\LmsBackEnd\obj\Debug\net5.0\LmsBackEnd.MvcApplicationPartsAssemblyInfo.cs
+E:\GitLab\Clone\lms\LmsBackEnd\obj\Debug\net5.0\LmsBackEnd.MvcApplicationPartsAssemblyInfo.cache
+E:\GitLab\Clone\lms\LmsBackEnd\obj\Debug\net5.0\LmsBackEnd.dll
+E:\GitLab\Clone\lms\LmsBackEnd\obj\Debug\net5.0\ref\LmsBackEnd.dll
+E:\GitLab\Clone\lms\LmsBackEnd\obj\Debug\net5.0\LmsBackEnd.xml
+E:\GitLab\Clone\lms\LmsBackEnd\obj\Debug\net5.0\LmsBackEnd.pdb
+E:\GitLab\Clone\lms\LmsBackEnd\bin\Debug\net5.0\appsettings.Development.json
+E:\GitLab\Clone\lms\LmsBackEnd\bin\Debug\net5.0\credentials.json
+E:\GitLab\Clone\lms\LmsBackEnd\bin\Debug\net5.0\appsettings.json
+E:\GitLab\Clone\lms\LmsBackEnd\bin\Debug\net5.0\LmsBackEnd.exe
+E:\GitLab\Clone\lms\LmsBackEnd\bin\Debug\net5.0\LmsBackEnd.deps.json
+E:\GitLab\Clone\lms\LmsBackEnd\bin\Debug\net5.0\LmsBackEnd.runtimeconfig.json
+E:\GitLab\Clone\lms\LmsBackEnd\bin\Debug\net5.0\LmsBackEnd.runtimeconfig.dev.json
+E:\GitLab\Clone\lms\LmsBackEnd\bin\Debug\net5.0\LmsBackEnd.dll
+E:\GitLab\Clone\lms\LmsBackEnd\bin\Debug\net5.0\ref\LmsBackEnd.dll
+E:\GitLab\Clone\lms\LmsBackEnd\bin\Debug\net5.0\LmsBackEnd.pdb
+E:\GitLab\Clone\lms\LmsBackEnd\bin\Debug\net5.0\LmsBackEnd.xml
+E:\GitLab\Clone\lms\LmsBackEnd\bin\Debug\net5.0\AutoMapper.dll
+E:\GitLab\Clone\lms\LmsBackEnd\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+E:\GitLab\Clone\lms\LmsBackEnd\bin\Debug\net5.0\Azure.Core.dll
+E:\GitLab\Clone\lms\LmsBackEnd\bin\Debug\net5.0\Azure.Storage.Blobs.dll
+E:\GitLab\Clone\lms\LmsBackEnd\bin\Debug\net5.0\Azure.Storage.Common.dll
+E:\GitLab\Clone\lms\LmsBackEnd\bin\Debug\net5.0\Dapper.dll
+E:\GitLab\Clone\lms\LmsBackEnd\bin\Debug\net5.0\Google.Apis.dll
+E:\GitLab\Clone\lms\LmsBackEnd\bin\Debug\net5.0\Google.Apis.Auth.PlatformServices.dll
+E:\GitLab\Clone\lms\LmsBackEnd\bin\Debug\net5.0\Google.Apis.Auth.dll
+E:\GitLab\Clone\lms\LmsBackEnd\bin\Debug\net5.0\Google.Apis.Core.dll
+E:\GitLab\Clone\lms\LmsBackEnd\bin\Debug\net5.0\Google.Apis.Drive.v3.dll
+E:\GitLab\Clone\lms\LmsBackEnd\bin\Debug\net5.0\Humanizer.dll
+E:\GitLab\Clone\lms\LmsBackEnd\bin\Debug\net5.0\Microsoft.Bcl.AsyncInterfaces.dll
+E:\GitLab\Clone\lms\LmsBackEnd\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+E:\GitLab\Clone\lms\LmsBackEnd\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+E:\GitLab\Clone\lms\LmsBackEnd\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\GitLab\Clone\lms\LmsBackEnd\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+E:\GitLab\Clone\lms\LmsBackEnd\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+E:\GitLab\Clone\lms\LmsBackEnd\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+E:\GitLab\Clone\lms\LmsBackEnd\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+E:\GitLab\Clone\lms\LmsBackEnd\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+E:\GitLab\Clone\lms\LmsBackEnd\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\GitLab\Clone\lms\LmsBackEnd\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+E:\GitLab\Clone\lms\LmsBackEnd\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+E:\GitLab\Clone\lms\LmsBackEnd\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\GitLab\Clone\lms\LmsBackEnd\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+E:\GitLab\Clone\lms\LmsBackEnd\bin\Debug\net5.0\Microsoft.OpenApi.dll
+E:\GitLab\Clone\lms\LmsBackEnd\bin\Debug\net5.0\Newtonsoft.Json.dll
+E:\GitLab\Clone\lms\LmsBackEnd\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+E:\GitLab\Clone\lms\LmsBackEnd\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+E:\GitLab\Clone\lms\LmsBackEnd\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+E:\GitLab\Clone\lms\LmsBackEnd\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+E:\GitLab\Clone\lms\LmsBackEnd\bin\Debug\net5.0\System.Data.SqlClient.dll
+E:\GitLab\Clone\lms\LmsBackEnd\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+E:\GitLab\Clone\lms\LmsBackEnd\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+E:\GitLab\Clone\lms\LmsBackEnd\bin\Debug\net5.0\System.Memory.Data.dll
+E:\GitLab\Clone\lms\LmsBackEnd\bin\Debug\net5.0\System.Runtime.Caching.dll
+E:\GitLab\Clone\lms\LmsBackEnd\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+E:\GitLab\Clone\lms\LmsBackEnd\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\GitLab\Clone\lms\LmsBackEnd\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\GitLab\Clone\lms\LmsBackEnd\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+E:\GitLab\Clone\lms\LmsBackEnd\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+E:\GitLab\Clone\lms\LmsBackEnd\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\GitLab\Clone\lms\LmsBackEnd\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+E:\GitLab\Clone\lms\LmsBackEnd\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\GitLab\Clone\lms\LmsBackEnd\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+E:\GitLab\Clone\lms\LmsBackEnd\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+E:\GitLab\Clone\lms\LmsBackEnd\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+E:\GitLab\Clone\lms\LmsBackEnd\bin\Debug\net5.0\runtimes\win-arm64\native\sni.dll
+E:\GitLab\Clone\lms\LmsBackEnd\bin\Debug\net5.0\runtimes\win-x64\native\sni.dll
+E:\GitLab\Clone\lms\LmsBackEnd\bin\Debug\net5.0\runtimes\win-x86\native\sni.dll
+E:\GitLab\Clone\lms\LmsBackEnd\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+E:\GitLab\Clone\lms\LmsBackEnd\bin\Debug\net5.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+E:\GitLab\Clone\lms\LmsBackEnd\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+E:\GitLab\Clone\lms\LmsBackEnd\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+E:\GitLab\Clone\lms\LmsBackEnd\obj\Debug\net5.0\staticwebassets\LmsBackEnd.StaticWebAssets.Manifest.cache
+E:\GitLab\Clone\lms\LmsBackEnd\obj\Debug\net5.0\staticwebassets\LmsBackEnd.StaticWebAssets.xml
+E:\GitLab\Clone\lms\LmsBackEnd\obj\Debug\net5.0\scopedcss\bundle\LmsBackEnd.styles.css
+E:\GitLab\Clone\lms\LmsBackEnd\obj\Debug\net5.0\LmsBackEnd.RazorTargetAssemblyInfo.cache
+E:\GitLab\Clone\lms\LmsBackEnd\obj\Debug\net5.0\LmsBackEnd.csproj.CopyComplete
+E:\GitLab\Clone\lms\LmsBackEnd\obj\Debug\net5.0\LmsBackEnd.genruntimeconfig.cache
+C:\Users\LenZ\Desktop\Project LMS\LmsBackEnd\LmsBackEnd\bin\Debug\net5.0\Azure.Core.dll
+C:\Users\LenZ\Desktop\Project LMS\LmsBackEnd\LmsBackEnd\bin\Debug\net5.0\Azure.Storage.Blobs.dll
+C:\Users\LenZ\Desktop\Project LMS\LmsBackEnd\LmsBackEnd\bin\Debug\net5.0\Azure.Storage.Common.dll
+C:\Users\LenZ\Desktop\Project LMS\LmsBackEnd\LmsBackEnd\bin\Debug\net5.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\LenZ\Desktop\Project LMS\LmsBackEnd\LmsBackEnd\bin\Debug\net5.0\System.Memory.Data.dll
+D:\LMS\backend\lms\LmsBackEnd\bin\Debug\net5.0\Azure.Core.dll
+D:\LMS\backend\lms\LmsBackEnd\bin\Debug\net5.0\Azure.Storage.Blobs.dll
+D:\LMS\backend\lms\LmsBackEnd\bin\Debug\net5.0\Azure.Storage.Common.dll
+D:\LMS\backend\lms\LmsBackEnd\bin\Debug\net5.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\LMS\backend\lms\LmsBackEnd\bin\Debug\net5.0\System.Memory.Data.dll
+E:\GitLab\Clone\lms\LmsBackEnd\bin\Debug\net5.0\group04.json
+E:\GitLab\Clone\lms\LmsBackEnd\bin\Debug\net5.0\credential.json

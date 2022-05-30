@@ -1,0 +1,6 @@
+docker login (ducvp 250723Dth)
+docker build -t ducvp/lmsgroup04fpt .
+docker login
+
+
+group04source.azure-api.net
